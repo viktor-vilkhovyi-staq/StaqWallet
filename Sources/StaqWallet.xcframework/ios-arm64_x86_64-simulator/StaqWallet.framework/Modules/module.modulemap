@@ -1,0 +1,11 @@
+framework module StaqWallet {
+  umbrella header "StaqWallet.h"
+  export *
+
+  module * { export * }
+}
+
+module StaqWallet.Swift {
+  header "StaqWallet-Swift.h"
+  requires objc
+}
