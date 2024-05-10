@@ -8,8 +8,8 @@ Add the package dependency to your `Package.swift` file and add the dependency t
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/staqio/TrustlessSDK", from: "0.2.1")
-    .package(url: "https://github.com/staqio/StaqWallet", from: "0.1.0"),
+    .package(url: "https://github.com/staqio/TrustlessSDK", from: "0.2.1"),
+    .package(url: "https://github.com/staqio/StaqWallet", from: "0.1.0")
 ]
 ```
 
@@ -43,15 +43,5 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window.rootViewController = rootViewController
         window.makeKeyAndVisible()
     }
-
-    func sceneDidDisconnect(_ scene: UIScene) {}
-
-    func sceneDidBecomeActive(_ scene: UIScene) {}
-
-    func sceneWillResignActive(_ scene: UIScene) {}
-
-    func sceneWillEnterForeground(_ scene: UIScene) {}
-
-    func sceneDidEnterBackground(_ scene: UIScene) {}
 }
 ```
