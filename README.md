@@ -15,7 +15,7 @@ dependencies: [
 
 ```swift
 targets: [
-    .target(name: "TargetName", dependencies:["StaqWallet"])
+    .target(name: "TargetName", dependencies:["StaqWallet", "TrustlessSDK"])
 ]
 ```
 
