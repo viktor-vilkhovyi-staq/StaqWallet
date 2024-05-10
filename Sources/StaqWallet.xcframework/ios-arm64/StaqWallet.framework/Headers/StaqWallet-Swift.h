@@ -313,6 +313,13 @@ SWIFT_CLASS("_TtC10StaqWallet30StaqWalletNavigationController")
 @end
 
 
+@class UIGestureRecognizer;
+
+@interface UIApplication (SWIFT_EXTENSION(StaqWallet)) <UIGestureRecognizerDelegate>
+- (BOOL)gestureRecognizer:(UIGestureRecognizer * _Nonnull)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer * _Nonnull)otherGestureRecognizer SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
 
 
 

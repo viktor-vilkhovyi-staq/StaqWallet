@@ -14,6 +14,7 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 
 
+
 @objc @_Concurrency.MainActor(unsafe) public class StaqWalletNavigationController : UIKit.UINavigationController {
   @_Concurrency.MainActor(unsafe) @objc dynamic public init()
   @available(*, unavailable)
@@ -26,12 +27,14 @@ import _SwiftConcurrencyShims
 
 
 
-extension TrustlessSDK.CardTransaction : Swift.Identifiable {
-  public typealias ID = Swift.String
+
+
+
+
+
+extension UIKit.UIApplication : UIKit.UIGestureRecognizerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
 }
-
-
-
 
 
 
