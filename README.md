@@ -25,7 +25,7 @@ Run the command `swift package update` to download the package and its dependenc
 
 ### Usage
 
-To initiate the Wallet flow, import StaqWallet and utilize the `StaqWalletNavigationController` it provides. To start the flow simply add this navigation controller into your existing NavigationController. Here is a basic example:
+To initiate the Wallet flow, import StaqWallet and utilize the `StaqWalletNavigationController` it provides. To start the flow, you need to provide configuration and embed this navigation controller into your existing navigation controller. Here is a basic example:
 
 ```swift
 import StaqWallet
@@ -39,6 +39,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let window = UIWindow(windowScene: windowScene)
         self.window = window
 
+        let config = StaqWalletConfig(userId: "user-id",
+                                      secret: "user-token",
+                                      language: .en, // or .ar
+                                      googleMapsApiKey: "google-maps-api-key",
+                                      email: "user-email",
+                                      mobileNumber: "user-mobile-number")
         let rootViewController = StaqWalletNavigationController()
         window.rootViewController = rootViewController
         window.makeKeyAndVisible()

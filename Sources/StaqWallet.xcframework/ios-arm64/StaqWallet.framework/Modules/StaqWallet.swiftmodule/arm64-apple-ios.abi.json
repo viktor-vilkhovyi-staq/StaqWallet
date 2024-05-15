@@ -238,30 +238,321 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "StaqWalletConfig",
+        "printedName": "StaqWalletConfig",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Language",
+            "printedName": "Language",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "en",
+                "printedName": "en",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(StaqWallet.StaqWalletConfig.Language.Type) -> StaqWallet.StaqWalletConfig.Language",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Language",
+                        "printedName": "StaqWallet.StaqWalletConfig.Language",
+                        "usr": "s:10StaqWallet0aB6ConfigV8LanguageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "StaqWallet.StaqWalletConfig.Language.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Language",
+                            "printedName": "StaqWallet.StaqWalletConfig.Language",
+                            "usr": "s:10StaqWallet0aB6ConfigV8LanguageO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10StaqWallet0aB6ConfigV8LanguageO2enyA2EmF",
+                "mangledName": "$s10StaqWallet0aB6ConfigV8LanguageO2enyA2EmF",
+                "moduleName": "StaqWallet"
+              },
+              {
+                "kind": "Var",
+                "name": "ar",
+                "printedName": "ar",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(StaqWallet.StaqWalletConfig.Language.Type) -> StaqWallet.StaqWalletConfig.Language",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Language",
+                        "printedName": "StaqWallet.StaqWalletConfig.Language",
+                        "usr": "s:10StaqWallet0aB6ConfigV8LanguageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "StaqWallet.StaqWalletConfig.Language.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Language",
+                            "printedName": "StaqWallet.StaqWalletConfig.Language",
+                            "usr": "s:10StaqWallet0aB6ConfigV8LanguageO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10StaqWallet0aB6ConfigV8LanguageO2aryA2EmF",
+                "mangledName": "$s10StaqWallet0aB6ConfigV8LanguageO2aryA2EmF",
+                "moduleName": "StaqWallet"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Language",
+                    "printedName": "StaqWallet.StaqWalletConfig.Language",
+                    "usr": "s:10StaqWallet0aB6ConfigV8LanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Language",
+                    "printedName": "StaqWallet.StaqWalletConfig.Language",
+                    "usr": "s:10StaqWallet0aB6ConfigV8LanguageO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10StaqWallet0aB6ConfigV8LanguageO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s10StaqWallet0aB6ConfigV8LanguageO2eeoiySbAE_AEtFZ",
+                "moduleName": "StaqWallet",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10StaqWallet0aB6ConfigV8LanguageO9hashValueSivp",
+                "mangledName": "$s10StaqWallet0aB6ConfigV8LanguageO9hashValueSivp",
+                "moduleName": "StaqWallet",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10StaqWallet0aB6ConfigV8LanguageO9hashValueSivg",
+                    "mangledName": "$s10StaqWallet0aB6ConfigV8LanguageO9hashValueSivg",
+                    "moduleName": "StaqWallet",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10StaqWallet0aB6ConfigV8LanguageO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s10StaqWallet0aB6ConfigV8LanguageO4hash4intoys6HasherVz_tF",
+                "moduleName": "StaqWallet",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:10StaqWallet0aB6ConfigV8LanguageO",
+            "mangledName": "$s10StaqWallet0aB6ConfigV8LanguageO",
+            "moduleName": "StaqWallet",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(userId:secret:language:googleMapsApiKey:email:mobileNumber:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StaqWalletConfig",
+                "printedName": "StaqWallet.StaqWalletConfig",
+                "usr": "s:10StaqWallet0aB6ConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Language",
+                "printedName": "StaqWallet.StaqWalletConfig.Language",
+                "usr": "s:10StaqWallet0aB6ConfigV8LanguageO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10StaqWallet0aB6ConfigV6userId6secret8language16googleMapsApiKey5email12mobileNumberACSS_SSAC8LanguageOS2SSgALtcfc",
+            "mangledName": "$s10StaqWallet0aB6ConfigV6userId6secret8language16googleMapsApiKey5email12mobileNumberACSS_SSAC8LanguageOS2SSgALtcfc",
+            "moduleName": "StaqWallet",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10StaqWallet0aB6ConfigV",
+        "mangledName": "$s10StaqWallet0aB6ConfigV",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "StaqWalletNavigationController",
         "printedName": "StaqWalletNavigationController",
         "children": [
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init()",
+            "printedName": "init(config:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "StaqWalletNavigationController",
                 "printedName": "StaqWallet.StaqWalletNavigationController",
                 "usr": "c:@M@StaqWallet@objc(cs)StaqWalletNavigationController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StaqWalletConfig",
+                "printedName": "StaqWallet.StaqWalletConfig",
+                "usr": "s:10StaqWallet0aB6ConfigV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@StaqWallet@objc(cs)StaqWalletNavigationController(im)init",
-            "mangledName": "$s10StaqWallet0aB20NavigationControllerCACycfc",
+            "usr": "s:10StaqWallet0aB20NavigationControllerC6configAcA0aB6ConfigV_tcfc",
+            "mangledName": "$s10StaqWallet0aB20NavigationControllerC6configAcA0aB6ConfigV_tcfc",
             "moduleName": "StaqWallet",
-            "overriding": true,
-            "objc_name": "init",
             "declAttributes": [
-              "Dynamic",
-              "ObjC",
               "Custom",
               "AccessControl"
             ],
@@ -1382,6 +1673,98 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "TrustlessError",
+        "printedName": "TrustlessError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12TrustlessSDK0A5ErrorO10StaqWalletE2idSSvp",
+            "mangledName": "$s12TrustlessSDK0A5ErrorO10StaqWalletE2idSSvp",
+            "moduleName": "StaqWallet",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12TrustlessSDK0A5ErrorO10StaqWalletE2idSSvg",
+                "mangledName": "$s12TrustlessSDK0A5ErrorO10StaqWalletE2idSSvg",
+                "moduleName": "StaqWallet",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12TrustlessSDK0A5ErrorO",
+        "mangledName": "$s12TrustlessSDK0A5ErrorO",
+        "moduleName": "TrustlessSDK",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "UIApplication",
         "printedName": "UIApplication",
         "children": [
@@ -1510,14 +1893,14 @@
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Withdrawal\/WithdrawConfirm.swift",
       "kind": "BooleanLiteral",
-      "offset": 423,
+      "offset": 515,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Withdrawal\/WithdrawConfirm.swift",
       "kind": "IntegerLiteral",
-      "offset": 7281,
+      "offset": 7883,
       "length": 6,
       "value": "200000"
     },
@@ -1657,21 +2040,21 @@
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 156,
+      "offset": 795,
       "length": 30,
       "value": "\"StaqWallet.StaqWalletNavigationController\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 156,
+      "offset": 795,
       "length": 30,
       "value": "\"StaqWallet.StaqWalletNavigationController\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 156,
+      "offset": 795,
       "length": 30,
       "value": "\"StaqWallet.StaqWalletNavigationController\""
     },
@@ -1972,42 +2355,42 @@
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Card\/View\/CardTransactionsView.swift",
       "kind": "StringLiteral",
-      "offset": 4087,
+      "offset": 4144,
       "length": 27,
       "value": "\"yyyy-MM-dd'T'HH:mm:ss.SSS\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Card\/View\/CardTransactionsView.swift",
       "kind": "StringLiteral",
-      "offset": 4158,
+      "offset": 4215,
       "length": 25,
       "value": "\"dd MMM yyyy '•' HH:mm\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Card\/View\/CardView.swift",
       "kind": "StringLiteral",
-      "offset": 4588,
+      "offset": 4628,
       "length": 5,
       "value": "\"123\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Card\/View\/CardView.swift",
       "kind": "StringLiteral",
-      "offset": 4607,
+      "offset": 4663,
       "length": 7,
       "value": "\"23\/02\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Card\/View\/CardView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4673,
-      "length": 3,
-      "value": "217"
+      "kind": "FloatLiteral",
+      "offset": 4764,
+      "length": 5,
+      "value": "0.628"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Card\/View\/CardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4699,
+      "offset": 4811,
       "length": 2,
       "value": "24"
     },
@@ -2546,28 +2929,28 @@
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Card\/View\/CardBalance.swift",
       "kind": "StringLiteral",
-      "offset": 2136,
+      "offset": 2054,
       "length": 5,
       "value": "\"SAR\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Card\/View\/CardBalance.swift",
       "kind": "IntegerLiteral",
-      "offset": 2171,
+      "offset": 2089,
       "length": 4,
       "value": "4300"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Card\/View\/CardBalance.swift",
       "kind": "IntegerLiteral",
-      "offset": 2192,
+      "offset": 2110,
       "length": 4,
       "value": "8500"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Card\/View\/CardBalance.swift",
       "kind": "IntegerLiteral",
-      "offset": 2219,
+      "offset": 2143,
       "length": 2,
       "value": "24"
     },

@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/StaqWallet-Swift.h</key>
 		<data>
-		MiNMicUOkRnPYYTrqeHqLjE13a4=
+		81EbzF4M3sYKszMBw1PZC3+Fr4o=
 		</data>
 		<key>Headers/StaqWallet.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/StaqWallet.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		+szlCd2GPy5UR5xs5UCoSaagmNE=
+		2XN4fM/DsOK9HzLbiWpwvOsXWR8=
 		</data>
 		<key>Modules/StaqWallet.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		jiy/LqePhcWKuaLVts7HSVEWIAE=
+		387esmnnOQ/dKNj6+eExvUWgjZk=
 		</data>
 		<key>Modules/StaqWallet.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,19 +34,19 @@
 		</data>
 		<key>Modules/StaqWallet.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		jiy/LqePhcWKuaLVts7HSVEWIAE=
+		387esmnnOQ/dKNj6+eExvUWgjZk=
 		</data>
 		<key>Modules/StaqWallet.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Mm+x/+LMl6dBjJTReCmQ/Ihmc3A=
+		b0ukDQZzEbqQgHYs9TcwFl5lY1M=
 		</data>
 		<key>Modules/StaqWallet.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		+szlCd2GPy5UR5xs5UCoSaagmNE=
+		2XN4fM/DsOK9HzLbiWpwvOsXWR8=
 		</data>
 		<key>Modules/StaqWallet.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		FjNBk/Gi0RUTVqabvhCW1UvVhc4=
+		JXhqNp5hPi1V1F/KLX7wVIBKqOU=
 		</data>
 		<key>Modules/StaqWallet.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/StaqWallet.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		FjNBk/Gi0RUTVqabvhCW1UvVhc4=
+		JXhqNp5hPi1V1F/KLX7wVIBKqOU=
 		</data>
 		<key>Modules/StaqWallet.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		OJSD5qF2SzWpGB4VrCnaktBPSbQ=
+		oI300pBDe3D4MGw93oce8RBJ0Vo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -82,7 +82,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			45upxJvMWoCFX0SPP1wKvm4D9N/HXd8MbAhQK6Fjsfw=
+			cDuMjMhkCjlVzGtjDNMsQK+KirRXewdg71/IcXWrGJ8=
 			</data>
 		</dict>
 		<key>Headers/StaqWallet.h</key>
@@ -96,14 +96,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zJ22mmfD22c2Tu0hH4lEQuRMXz1d1+FkBlsxqsfxoQs=
+			laQkpY0CkJDcDHFNrBm7BU3wpDPjEv56so6Mjq+v43I=
 			</data>
 		</dict>
 		<key>Modules/StaqWallet.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mRB6ZvBJvHZ0lLpmlcsi8RWnJJacfMuQN0lfUiU+0vs=
+			/AbnpykHPQWUAb/8gTwwtmCkMcENgKjV0n2ssfJD0tY=
 			</data>
 		</dict>
 		<key>Modules/StaqWallet.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -117,28 +117,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mRB6ZvBJvHZ0lLpmlcsi8RWnJJacfMuQN0lfUiU+0vs=
+			/AbnpykHPQWUAb/8gTwwtmCkMcENgKjV0n2ssfJD0tY=
 			</data>
 		</dict>
 		<key>Modules/StaqWallet.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XzgCukAusApcVk+byo9cChtxcmTUHvqIUK0g1y6PNFM=
+			RUB/SUHzk6yLKVdZgmItORBa4oF8X0FAMGHsnOVPETA=
 			</data>
 		</dict>
 		<key>Modules/StaqWallet.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zJ22mmfD22c2Tu0hH4lEQuRMXz1d1+FkBlsxqsfxoQs=
+			laQkpY0CkJDcDHFNrBm7BU3wpDPjEv56so6Mjq+v43I=
 			</data>
 		</dict>
 		<key>Modules/StaqWallet.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nnslG1Z8mKeqXxPqZCKewV0DIgOa1dnmTGXbcN1V6iY=
+			GQ2mGtE3s6QQmZIoUFovkDveJMupUOFxjwAptP9C7ps=
 			</data>
 		</dict>
 		<key>Modules/StaqWallet.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -152,14 +152,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nnslG1Z8mKeqXxPqZCKewV0DIgOa1dnmTGXbcN1V6iY=
+			GQ2mGtE3s6QQmZIoUFovkDveJMupUOFxjwAptP9C7ps=
 			</data>
 		</dict>
 		<key>Modules/StaqWallet.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			271Qbyods5lM2Z5Uryp5rHhYcBYVBqID9uHawd1J7nc=
+			KT8wRg1XD1lj8+vj2GBmKqwKY7NQygS8LwSDVC9J3Ew=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
