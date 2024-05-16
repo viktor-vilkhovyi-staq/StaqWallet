@@ -8,8 +8,8 @@ Add the package dependency to your `Package.swift` file and add the dependency t
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/staqio/TrustlessSDK", from: "0.2.1"),
-    .package(url: "https://github.com/staqio/StaqWallet", from: "0.1.0")
+    .package(url: "https://github.com/staqio/TrustlessSDK", from: "0.3.1"),
+    .package(url: "https://github.com/staqio/StaqWallet", from: "0.2.1")
 ]
 ```
 

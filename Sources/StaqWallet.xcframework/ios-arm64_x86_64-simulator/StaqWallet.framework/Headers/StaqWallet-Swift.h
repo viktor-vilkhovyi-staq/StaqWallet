@@ -312,6 +312,7 @@ SWIFT_CLASS("_TtC10StaqWallet30StaqWalletNavigationController")
 @end
 
 
+
 @class UIGestureRecognizer;
 
 @interface UIApplication (SWIFT_EXTENSION(StaqWallet)) <UIGestureRecognizerDelegate>
@@ -644,6 +645,7 @@ SWIFT_CLASS("_TtC10StaqWallet30StaqWalletNavigationController")
 - (nonnull instancetype)initWithRootViewController:(UIViewController * _Nonnull)rootViewController SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
+
 
 
 @class UIGestureRecognizer;

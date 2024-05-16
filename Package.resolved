@@ -1,13 +1,13 @@
 {
-  "originHash" : "0e5271ff5ea5b22a1671c3241d6606c83e3be6cbd382a4a7682dd936cfbfb7ec",
+  "originHash" : "6b9d28141eef0adbb5e05a9a0af8151e486ebcb78d15f12b368c16a5b7e52f3d",
   "pins" : [
     {
       "identity" : "trustlesssdk",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/staqio/TrustlessSDK",
       "state" : {
-        "revision" : "e3549f56d4178ea8be1f853f8f88ad4c1b47b69f",
-        "version" : "0.2.1"
+        "revision" : "8826909475fc6bfe9d573eae17343d77950f96a6",
+        "version" : "0.3.1"
       }
     }
   ],

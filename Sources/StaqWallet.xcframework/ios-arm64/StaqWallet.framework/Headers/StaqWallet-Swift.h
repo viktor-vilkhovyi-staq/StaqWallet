@@ -312,6 +312,7 @@ SWIFT_CLASS("_TtC10StaqWallet30StaqWalletNavigationController")
 @end
 
 
+
 @class UIGestureRecognizer;
 
 @interface UIApplication (SWIFT_EXTENSION(StaqWallet)) <UIGestureRecognizerDelegate>
