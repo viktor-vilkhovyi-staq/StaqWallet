@@ -21,17 +21,17 @@ extension TrustlessSDK.TrustlessError : Swift.Identifiable {
 
 
 
-public struct StaqWalletConfig {
-  public enum Language {
-    case en
-    case ar
-    public static func == (a: StaqWallet.StaqWalletConfig.Language, b: StaqWallet.StaqWalletConfig.Language) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
-    public var hashValue: Swift.Int {
-      get
-    }
+public enum SupportedLanguage : Swift.String {
+  case en
+  case ar
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
   }
-  public init(userId: Swift.String, secret: Swift.String, language: StaqWallet.StaqWalletConfig.Language, googleMapsApiKey: Swift.String, email: Swift.String? = nil, mobileNumber: Swift.String? = nil)
+}
+public struct StaqWalletConfig {
+  public init(userId: Swift.String, secret: Swift.String, language: StaqWallet.SupportedLanguage, googleMapsApiKey: Swift.String, email: Swift.String? = nil, mobileNumber: Swift.String? = nil)
 }
 @objc @_Concurrency.MainActor(unsafe) public class StaqWalletNavigationController : UIKit.UINavigationController {
   @_Concurrency.MainActor(unsafe) public init(config: StaqWallet.StaqWalletConfig)
@@ -39,6 +39,9 @@ public struct StaqWalletConfig {
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @objc deinit
 }
+
+
+
 
 
 
@@ -61,5 +64,7 @@ extension UIKit.UIApplication : UIKit.UIGestureRecognizerDelegate {
 
 
 
-extension StaqWallet.StaqWalletConfig.Language : Swift.Equatable {}
-extension StaqWallet.StaqWalletConfig.Language : Swift.Hashable {}
+
+extension StaqWallet.SupportedLanguage : Swift.Equatable {}
+extension StaqWallet.SupportedLanguage : Swift.Hashable {}
+extension StaqWallet.SupportedLanguage : Swift.RawRepresentable {}
