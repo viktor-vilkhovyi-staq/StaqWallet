@@ -9,7 +9,7 @@ Add the package dependency to your `Package.swift` file and add the dependency t
 ```swift
 dependencies: [
     .package(url: "https://github.com/staqio/TrustlessSDK", branch: "feat/dev-finlab"),
-    .package(url: "https://github.com/staqio/StaqWallet", from: "0.2.2")
+    .package(url: "https://github.com/staqio/StaqWallet", from: "0.3.0")
 ]
 ```
 
@@ -41,9 +41,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         let config = StaqWalletConfig(userId: "user-id",
                                       secret: "user-token",
+                                      email: "user-email",
                                       language: .en, // or .ar
                                       googleMapsApiKey: "google-maps-api-key",
-                                      email: "user-email",
                                       mobileNumber: "user-mobile-number")
         let rootViewController = StaqWalletNavigationController(config: config)
         window.rootViewController = rootViewController

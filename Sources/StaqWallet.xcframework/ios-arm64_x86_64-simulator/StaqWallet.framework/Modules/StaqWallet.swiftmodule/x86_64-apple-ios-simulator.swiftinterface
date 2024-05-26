@@ -23,17 +23,8 @@ extension TrustlessSDK.TrustlessError : Swift.Identifiable {
 
 
 
-public enum SupportedLanguage : Swift.String {
-  case en
-  case ar
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
 public struct StaqWalletConfig {
-  public init(userId: Swift.String, secret: Swift.String, language: StaqWallet.SupportedLanguage, googleMapsApiKey: Swift.String, email: Swift.String? = nil, mobileNumber: Swift.String? = nil)
+  public init(userId: Swift.String, secret: Swift.String, language: StaqWallet.SupportedLanguage, googleMapsApiKey: Swift.String, email: Swift.String, mobileNumber: Swift.String? = nil)
 }
 @objc @_Concurrency.MainActor(unsafe) public class StaqWalletNavigationController : UIKit.UINavigationController {
   @_Concurrency.MainActor(unsafe) public init(config: StaqWallet.StaqWalletConfig)
@@ -47,6 +38,15 @@ public struct StaqWalletConfig {
 
 
 
+public enum SupportedLanguage : Swift.String {
+  case en
+  case ar
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 
 
 
@@ -58,8 +58,6 @@ public struct StaqWalletConfig {
 extension UIKit.UIApplication : UIKit.UIGestureRecognizerDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
 }
-
-
 
 
 

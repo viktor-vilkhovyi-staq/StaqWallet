@@ -12,7 +12,7 @@ let package = Package(
         .library(name: "StaqWallet", targets: ["StaqWallet"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/staqio/TrustlessSDK", from: "0.3.1"),
+        .package(url: "https://github.com/staqio/TrustlessSDK", branch: "feat/dev-finlab"),
     ],
     targets: [
         .binaryTarget(name: "StaqWallet", path: "./Sources/StaqWallet.xcframework"),
