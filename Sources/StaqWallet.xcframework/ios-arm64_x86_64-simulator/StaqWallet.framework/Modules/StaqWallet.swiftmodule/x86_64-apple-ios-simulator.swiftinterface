@@ -27,6 +27,7 @@ extension TrustlessSDK.TrustlessError : Swift.Identifiable {
 
 
 
+
 @_hasMissingDesignatedInitializers final public class AppInitViewModel {
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
@@ -40,6 +41,7 @@ public struct StaqWalletConfig {
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @objc deinit
 }
+
 
 
 
