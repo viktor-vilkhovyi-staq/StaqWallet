@@ -1,12 +1,16 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
 // swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name StaqWallet
+import SystemConfiguration.CaptiveNetwork
 import Combine
 import DeveloperToolsSupport
 import Foundation
+import LocalAuthentication
+import NetworkExtension
 @_exported import StaqWallet
 import Swift
 import SwiftUI
+import SystemConfiguration
 import TrustlessSDK
 import UIKit
 import _Concurrency
@@ -23,6 +27,10 @@ extension TrustlessSDK.TrustlessError : Swift.Identifiable {
 
 
 
+@_hasMissingDesignatedInitializers final public class AppInitViewModel {
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
 public struct StaqWalletConfig {
   public init(userId: Swift.String, secret: Swift.String, language: StaqWallet.SupportedLanguage, googleMapsApiKey: Swift.String, email: Swift.String, mobileNumber: Swift.String? = nil)
 }
@@ -38,6 +46,8 @@ public struct StaqWalletConfig {
 
 
 
+
+
 public enum SupportedLanguage : Swift.String {
   case en
   case ar
@@ -47,6 +57,15 @@ public enum SupportedLanguage : Swift.String {
     get
   }
 }
+@_hasMissingDesignatedInitializers final public class AppUser {
+  public static func set(firstName: Swift.String, lastName: Swift.String, userName: Swift.String, password: Swift.String, email: Swift.String)
+  @objc deinit
+}
+final public class AppFlowCoordinator {
+  public init()
+  final public func start(window: UIKit.UIWindow)
+  @objc deinit
+}
 
 
 
@@ -55,8 +74,26 @@ public enum SupportedLanguage : Swift.String {
 
 
 
+@_hasMissingDesignatedInitializers final public class SecurityService {
+  public static func checkSecurity()
+  @objc deinit
+}
+
+
+extension UIKit.UIApplication {
+  @_Concurrency.MainActor(unsafe) public func endEditing()
+  @_Concurrency.MainActor(unsafe) public var foregroundActiveScene: UIKit.UIWindowScene? {
+    get
+  }
+}
 extension UIKit.UIApplication : UIKit.UIGestureRecognizerDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
+}
+
+extension UIKit.UINavigationController {
+  @_Concurrency.MainActor(unsafe) public func pushVC(_ vc: UIKit.UIViewController, animated: Swift.Bool = true, completion: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public func popViewController(animated: Swift.Bool = true, completion: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public func popToViewController(_ vc: UIKit.UIViewController, animated: Swift.Bool = true, completion: @escaping () -> Swift.Void)
 }
 
 
@@ -67,6 +104,7 @@ extension UIKit.UIApplication : UIKit.UIGestureRecognizerDelegate {
 
 
 
+extension StaqWallet.AppInitViewModel : Combine.ObservableObject {}
 extension StaqWallet.SupportedLanguage : Swift.Equatable {}
 extension StaqWallet.SupportedLanguage : Swift.Hashable {}
 extension StaqWallet.SupportedLanguage : Swift.RawRepresentable {}

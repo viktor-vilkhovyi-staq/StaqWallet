@@ -1,13 +1,13 @@
 {
-  "originHash" : "6b9d28141eef0adbb5e05a9a0af8151e486ebcb78d15f12b368c16a5b7e52f3d",
+  "originHash" : "5e417a7b9cff235ea7cfaafeca824395cd7db777fe60db879a25c62768cbe1a3",
   "pins" : [
     {
       "identity" : "trustlesssdk",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/staqio/TrustlessSDK",
       "state" : {
-        "revision" : "8826909475fc6bfe9d573eae17343d77950f96a6",
-        "version" : "0.3.1"
+        "branch" : "feat/dev-finlab",
+        "revision" : "9ebd0c3dd76f3607705f519442d854a825ed3c35"
       }
     }
   ],

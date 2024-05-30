@@ -325,6 +325,11 @@ SWIFT_CLASS("_TtC10StaqWallet30StaqWalletNavigationController")
 
 
 
+
+
+
+
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -653,6 +658,11 @@ SWIFT_CLASS("_TtC10StaqWallet30StaqWalletNavigationController")
 @interface UIApplication (SWIFT_EXTENSION(StaqWallet)) <UIGestureRecognizerDelegate>
 - (BOOL)gestureRecognizer:(UIGestureRecognizer * _Nonnull)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer * _Nonnull)otherGestureRecognizer SWIFT_WARN_UNUSED_RESULT;
 @end
+
+
+
+
+
 
 
 

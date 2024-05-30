@@ -16,6 +16,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -42,6 +52,23 @@
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "NetworkExtension",
+        "printedName": "NetworkExtension",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration.CaptiveNetwork",
+        "printedName": "SystemConfiguration.CaptiveNetwork",
         "declKind": "Import",
         "moduleName": "StaqWallet"
       },
@@ -269,6 +296,78 @@
         "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TrustlessSDK",
+        "printedName": "TrustlessSDK",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AppInitViewModel",
+        "printedName": "AppInitViewModel",
+        "declKind": "Class",
+        "usr": "s:10StaqWallet16AppInitViewModelC",
+        "mangledName": "$s10StaqWallet16AppInitViewModelC",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -642,6 +741,16 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -673,6 +782,53 @@
         "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -789,6 +945,16 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -803,6 +969,60 @@
         "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -1063,40 +1283,19 @@
       },
       {
         "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "StaqWallet",
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
       },
       {
         "kind": "Import",
         "name": "TrustlessSDK",
         "printedName": "TrustlessSDK",
         "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
         "moduleName": "StaqWallet",
         "declAttributes": [
           "RawDocComment"
@@ -1104,484 +1303,141 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "StaqWallet"
       },
       {
-        "kind": "Import",
-        "name": "TrustlessSDK",
-        "printedName": "TrustlessSDK",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
+        "kind": "TypeDecl",
+        "name": "AppUser",
+        "printedName": "AppUser",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "set",
+            "printedName": "set(firstName:lastName:userName:password:email:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10StaqWallet7AppUserC3set9firstName04lastG004userG08password5emailySS_S4StFZ",
+            "mangledName": "$s10StaqWallet7AppUserC3set9firstName04lastG004userG08password5emailySS_S4StFZ",
+            "moduleName": "StaqWallet",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10StaqWallet7AppUserC",
+        "mangledName": "$s10StaqWallet7AppUserC",
         "moduleName": "StaqWallet",
         "declAttributes": [
-          "RawDocComment"
-        ]
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
       },
       {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
+        "kind": "TypeDecl",
+        "name": "AppFlowCoordinator",
+        "printedName": "AppFlowCoordinator",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AppFlowCoordinator",
+                "printedName": "StaqWallet.AppFlowCoordinator",
+                "usr": "s:10StaqWallet18AppFlowCoordinatorC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10StaqWallet18AppFlowCoordinatorCACycfc",
+            "mangledName": "$s10StaqWallet18AppFlowCoordinatorCACycfc",
+            "moduleName": "StaqWallet",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(window:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIWindow",
+                "printedName": "UIKit.UIWindow",
+                "usr": "c:objc(cs)UIWindow"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10StaqWallet18AppFlowCoordinatorC5start6windowySo8UIWindowC_tF",
+            "mangledName": "$s10StaqWallet18AppFlowCoordinatorC5start6windowySo8UIWindowC_tF",
+            "moduleName": "StaqWallet",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10StaqWallet18AppFlowCoordinatorC",
+        "mangledName": "$s10StaqWallet18AppFlowCoordinatorC",
         "moduleName": "StaqWallet",
         "declAttributes": [
-          "RawDocComment"
+          "Final",
+          "AccessControl"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "TrustlessSDK",
-        "printedName": "TrustlessSDK",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StaqWallet",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StaqWallet",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StaqWallet",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StaqWallet",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StaqWallet",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "StaqWallet",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "TrustlessSDK",
-        "printedName": "TrustlessSDK",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StaqWallet",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "TrustlessSDK",
-        "printedName": "TrustlessSDK",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StaqWallet",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "TrustlessSDK",
-        "printedName": "TrustlessSDK",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StaqWallet",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "TrustlessSDK",
-        "printedName": "TrustlessSDK",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StaqWallet",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StaqWallet",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StaqWallet",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "StaqWallet",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StaqWallet",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StaqWallet",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StaqWallet",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "TrustlessSDK",
-        "printedName": "TrustlessSDK",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StaqWallet",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StaqWallet",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StaqWallet",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StaqWallet",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StaqWallet",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "TrustlessSDK",
-        "printedName": "TrustlessSDK",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StaqWallet",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StaqWallet",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
       },
       {
         "kind": "Import",
@@ -1616,8 +1472,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "StaqWallet",
         "declAttributes": [
@@ -1629,44 +1485,6 @@
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "StaqWallet",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "TrustlessSDK",
-        "printedName": "TrustlessSDK",
-        "declKind": "Import",
-        "moduleName": "StaqWallet"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
         "moduleName": "StaqWallet",
         "declAttributes": [
           "RawDocComment"
@@ -1677,7 +1495,10 @@
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
-        "moduleName": "StaqWallet"
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -1715,20 +1536,20 @@
       },
       {
         "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
-        "moduleName": "StaqWallet",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "StaqWallet"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "StaqWallet"
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -1739,13 +1560,27 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "TrustlessSDK",
+        "printedName": "TrustlessSDK",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "StaqWallet",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
       },
       {
         "kind": "Import",
@@ -1845,6 +1680,941 @@
         "printedName": "TrustlessSDK",
         "declKind": "Import",
         "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "TrustlessSDK",
+        "printedName": "TrustlessSDK",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "TrustlessSDK",
+        "printedName": "TrustlessSDK",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "TrustlessSDK",
+        "printedName": "TrustlessSDK",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SecurityService",
+        "printedName": "SecurityService",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "checkSecurity",
+            "printedName": "checkSecurity()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10StaqWallet15SecurityServiceC05checkC0yyFZ",
+            "mangledName": "$s10StaqWallet15SecurityServiceC05checkC0yyFZ",
+            "moduleName": "StaqWallet",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10StaqWallet15SecurityServiceC",
+        "mangledName": "$s10StaqWallet15SecurityServiceC",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TrustlessSDK",
+        "printedName": "TrustlessSDK",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TrustlessSDK",
+        "printedName": "TrustlessSDK",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TrustlessSDK",
+        "printedName": "TrustlessSDK",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "TrustlessSDK",
+        "printedName": "TrustlessSDK",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "LocalAuthentication",
+        "printedName": "LocalAuthentication",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "TrustlessSDK",
+        "printedName": "TrustlessSDK",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "TrustlessSDK",
+        "printedName": "TrustlessSDK",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TrustlessSDK",
+        "printedName": "TrustlessSDK",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "TrustlessSDK",
+        "printedName": "TrustlessSDK",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TrustlessSDK",
+        "printedName": "TrustlessSDK",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "TrustlessSDK",
+        "printedName": "TrustlessSDK",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "TrustlessSDK",
+        "printedName": "TrustlessSDK",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "TrustlessSDK",
+        "printedName": "TrustlessSDK",
+        "declKind": "Import",
+        "moduleName": "StaqWallet"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaqWallet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -1973,6 +2743,87 @@
         "children": [
           {
             "kind": "Function",
+            "name": "endEditing",
+            "printedName": "endEditing()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So13UIApplicationC10StaqWalletE10endEditingyyF",
+            "mangledName": "$sSo13UIApplicationC10StaqWalletE10endEditingyyF",
+            "moduleName": "StaqWallet",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "foregroundActiveScene",
+            "printedName": "foregroundActiveScene",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIWindowScene?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIWindowScene",
+                    "printedName": "UIKit.UIWindowScene",
+                    "usr": "c:objc(cs)UIWindowScene"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So13UIApplicationC10StaqWalletE21foregroundActiveSceneSo08UIWindowF0CSgvp",
+            "mangledName": "$sSo13UIApplicationC10StaqWalletE21foregroundActiveSceneSo08UIWindowF0CSgvp",
+            "moduleName": "StaqWallet",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIWindowScene?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIWindowScene",
+                        "printedName": "UIKit.UIWindowScene",
+                        "usr": "c:objc(cs)UIWindowScene"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So13UIApplicationC10StaqWalletE21foregroundActiveSceneSo08UIWindowF0CSgvg",
+                "mangledName": "$sSo13UIApplicationC10StaqWalletE21foregroundActiveSceneSo08UIWindowF0CSgvg",
+                "moduleName": "StaqWallet",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
             "name": "gestureRecognizer",
             "printedName": "gestureRecognizer(_:shouldRecognizeSimultaneouslyWith:)",
             "children": [
@@ -2088,6 +2939,242 @@
             "mangledName": "$ss8SendableP"
           }
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UINavigationController",
+        "printedName": "UINavigationController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "pushVC",
+            "printedName": "pushVC(_:animated:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So22UINavigationControllerC10StaqWalletE6pushVC_8animated10completionySo06UIViewB0C_SbyyctF",
+            "mangledName": "$sSo22UINavigationControllerC10StaqWalletE6pushVC_8animated10completionySo06UIViewB0C_SbyyctF",
+            "moduleName": "StaqWallet",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "popViewController",
+            "printedName": "popViewController(animated:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So22UINavigationControllerC10StaqWalletE07popViewB08animated10completionySb_yyctF",
+            "mangledName": "$sSo22UINavigationControllerC10StaqWalletE07popViewB08animated10completionySb_yyctF",
+            "moduleName": "StaqWallet",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "popToViewController",
+            "printedName": "popToViewController(_:animated:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So22UINavigationControllerC10StaqWalletE09popToViewB0_8animated10completionySo06UIViewB0C_SbyyctF",
+            "mangledName": "$sSo22UINavigationControllerC10StaqWalletE09popToViewB0_8animated10completionySo06UIViewB0C_SbyyctF",
+            "moduleName": "StaqWallet",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UINavigationController",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UINavigationController",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
@@ -2122,44 +3209,9 @@
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Verification\/Screens\/VerificationGenerateCodeScreen.swift",
-      "kind": "StringLiteral",
-      "offset": 3859,
-      "length": 3,
-      "value": "\"1\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Verification\/Screens\/VerificationGenerateCodeScreen.swift",
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Views\/Input\/InputFieldCheck.swift",
       "kind": "BooleanLiteral",
-      "offset": 3874,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Verification\/Screens\/VerificationGenerateCodeScreen.swift",
-      "kind": "StringLiteral",
-      "offset": 3919,
-      "length": 3,
-      "value": "\"1\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Verification\/Screens\/VerificationGenerateCodeScreen.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3934,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Verification\/Screens\/VerificationGenerateCodeScreen.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3984,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Verification\/Screens\/VerificationGenerateCodeScreen.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4033,
+      "offset": 185,
       "length": 5,
       "value": "false"
     },
@@ -2292,196 +3344,196 @@
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 5006,
+      "offset": 3766,
       "length": 38,
       "value": "\"279a8baa-2f87-418d-8bec-bec75b7e8ec8\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 5079,
+      "offset": 3839,
       "length": 90,
       "value": "\"kXnW4tE2Pa\/Fj1CGzsaj2QBYZCMyhRAAbZ4V0CWOrKTyft8TJp7PvVcsaYoLkMI0z8ki62aCfZMPB6Eq5fgWyg==\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 5283,
+      "offset": 4028,
       "length": 27,
       "value": "\"PENDING_IDENTITY_APPROVAL\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 5336,
+      "offset": 4081,
       "length": 16,
       "value": "\"PENDING_YAKEEN\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 5383,
+      "offset": 4128,
       "length": 22,
       "value": "\"PENDING_KYC_APPROVAL\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 5441,
+      "offset": 4186,
       "length": 27,
       "value": "\"PENDING_CODE_VERIFICATION\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 5497,
+      "offset": 4242,
       "length": 19,
       "value": "\"IDENTITY_REJECTED\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 5538,
+      "offset": 4283,
       "length": 11,
       "value": "\"ACTIVATED\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 5570,
+      "offset": 4315,
       "length": 10,
       "value": "\"DISABLED\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 5599,
+      "offset": 4344,
       "length": 8,
       "value": "\"CLOSED\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 5632,
+      "offset": 4377,
       "length": 15,
       "value": "\"PENDING_ENTRY\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 5671,
+      "offset": 4416,
       "length": 14,
       "value": "\"KYC_REJECTED\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 5721,
+      "offset": 4466,
       "length": 27,
       "value": "\"FAILED_YAKEEN_INTEGRATION\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 5773,
+      "offset": 4518,
       "length": 15,
       "value": "\"PENDING_TIMER\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 5814,
+      "offset": 4559,
       "length": 16,
       "value": "\"PENDING_WALLET\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 5283,
+      "offset": 4028,
       "length": 27,
       "value": "\"PENDING_IDENTITY_APPROVAL\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 5336,
+      "offset": 4081,
       "length": 16,
       "value": "\"PENDING_YAKEEN\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 5383,
+      "offset": 4128,
       "length": 22,
       "value": "\"PENDING_KYC_APPROVAL\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 5441,
+      "offset": 4186,
       "length": 27,
       "value": "\"PENDING_CODE_VERIFICATION\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 5497,
+      "offset": 4242,
       "length": 19,
       "value": "\"IDENTITY_REJECTED\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 5538,
+      "offset": 4283,
       "length": 11,
       "value": "\"ACTIVATED\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 5570,
+      "offset": 4315,
       "length": 10,
       "value": "\"DISABLED\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 5599,
+      "offset": 4344,
       "length": 8,
       "value": "\"CLOSED\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 5632,
+      "offset": 4377,
       "length": 15,
       "value": "\"PENDING_ENTRY\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 5671,
+      "offset": 4416,
       "length": 14,
       "value": "\"KYC_REJECTED\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 5721,
+      "offset": 4466,
       "length": 27,
       "value": "\"FAILED_YAKEEN_INTEGRATION\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 5773,
+      "offset": 4518,
       "length": 15,
       "value": "\"PENDING_TIMER\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 5814,
+      "offset": 4559,
       "length": 16,
       "value": "\"PENDING_WALLET\""
     },
@@ -2655,381 +3707,402 @@
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Verification\/Screens\/VerificationCodeScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 259,
+      "length": 3,
+      "value": "120"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Verification\/Screens\/VerificationCodeScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 238,
+      "offset": 756,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Verification\/Screens\/VerificationCodeScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 838,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 167,
+      "length": 14,
+      "value": "\"AngryMadFace\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 202,
+      "length": 10,
+      "value": "\"Asterisk\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 229,
+      "length": 6,
+      "value": "\"Bank\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 256,
+      "length": 10,
+      "value": "\"Calendar\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 284,
+      "length": 7,
+      "value": "\"Check\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 319,
+      "length": 17,
+      "value": "\"ChevronFarRight\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 363,
+      "length": 16,
+      "value": "\"ChevronLeftMid\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 404,
+      "length": 14,
+      "value": "\"ChevronRight\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 435,
+      "length": 6,
+      "value": "\"Copy\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 460,
+      "length": 8,
+      "value": "\"Credit\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 490,
+      "length": 11,
+      "value": "\"CreditPay\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 529,
+      "length": 17,
+      "value": "\"CustomerSupport\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 569,
+      "length": 12,
+      "value": "\"Evaluation\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 600,
+      "length": 8,
+      "value": "\"Freeze\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 635,
+      "length": 16,
+      "value": "\"HappySmileFace\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 668,
+      "length": 6,
+      "value": "\"Home\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 691,
+      "length": 6,
+      "value": "\"Info\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 714,
+      "length": 6,
+      "value": "\"Lock\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 737,
+      "length": 6,
+      "value": "\"More\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 759,
+      "length": 5,
+      "value": "\"PIN\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 781,
+      "length": 6,
+      "value": "\"Plus\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 807,
+      "length": 9,
+      "value": "\"Setting\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 833,
+      "length": 6,
+      "value": "\"Time\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 861,
+      "length": 11,
+      "value": "\"UserCheck\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 889,
+      "length": 6,
+      "value": "\"Wind\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 916,
+      "length": 10,
+      "value": "\"Withdraw\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 167,
+      "length": 14,
+      "value": "\"AngryMadFace\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 202,
+      "length": 10,
+      "value": "\"Asterisk\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 229,
+      "length": 6,
+      "value": "\"Bank\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 256,
+      "length": 10,
+      "value": "\"Calendar\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 284,
+      "length": 7,
+      "value": "\"Check\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 319,
+      "length": 17,
+      "value": "\"ChevronFarRight\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 363,
+      "length": 16,
+      "value": "\"ChevronLeftMid\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 404,
+      "length": 14,
+      "value": "\"ChevronRight\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 435,
+      "length": 6,
+      "value": "\"Copy\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 460,
+      "length": 8,
+      "value": "\"Credit\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 490,
+      "length": 11,
+      "value": "\"CreditPay\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 529,
+      "length": 17,
+      "value": "\"CustomerSupport\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 569,
+      "length": 12,
+      "value": "\"Evaluation\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 600,
+      "length": 8,
+      "value": "\"Freeze\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 635,
+      "length": 16,
+      "value": "\"HappySmileFace\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 668,
+      "length": 6,
+      "value": "\"Home\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 691,
+      "length": 6,
+      "value": "\"Info\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 714,
+      "length": 6,
+      "value": "\"Lock\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 737,
+      "length": 6,
+      "value": "\"More\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 759,
+      "length": 5,
+      "value": "\"PIN\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 781,
+      "length": 6,
+      "value": "\"Plus\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 807,
+      "length": 9,
+      "value": "\"Setting\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 833,
+      "length": 6,
+      "value": "\"Time\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 861,
+      "length": 11,
+      "value": "\"UserCheck\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 889,
+      "length": 6,
+      "value": "\"Wind\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
+      "kind": "StringLiteral",
+      "offset": 916,
+      "length": 10,
+      "value": "\"Withdraw\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Verification\/Views\/CodeView.swift",
+      "kind": "StringLiteral",
+      "offset": 1248,
+      "length": 8,
+      "value": "\"123456\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Verification\/Views\/CodeView.swift",
       "kind": "IntegerLiteral",
-      "offset": 357,
+      "offset": 1282,
       "length": 3,
       "value": "120"
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 167,
-      "length": 14,
-      "value": "\"AngryMadFace\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 202,
-      "length": 10,
-      "value": "\"Asterisk\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 229,
-      "length": 6,
-      "value": "\"Bank\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 256,
-      "length": 10,
-      "value": "\"Calendar\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 284,
-      "length": 7,
-      "value": "\"Check\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 319,
-      "length": 17,
-      "value": "\"ChevronFarRight\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 363,
-      "length": 16,
-      "value": "\"ChevronLeftMid\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 404,
-      "length": 14,
-      "value": "\"ChevronRight\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 435,
-      "length": 6,
-      "value": "\"Copy\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 460,
-      "length": 8,
-      "value": "\"Credit\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 490,
-      "length": 11,
-      "value": "\"CreditPay\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 529,
-      "length": 17,
-      "value": "\"CustomerSupport\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 569,
-      "length": 12,
-      "value": "\"Evaluation\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 600,
-      "length": 8,
-      "value": "\"Freeze\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 635,
-      "length": 16,
-      "value": "\"HappySmileFace\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 668,
-      "length": 6,
-      "value": "\"Home\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 691,
-      "length": 6,
-      "value": "\"Info\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 714,
-      "length": 6,
-      "value": "\"Lock\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 737,
-      "length": 6,
-      "value": "\"More\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 759,
-      "length": 5,
-      "value": "\"PIN\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 781,
-      "length": 6,
-      "value": "\"Plus\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 807,
-      "length": 9,
-      "value": "\"Setting\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 833,
-      "length": 6,
-      "value": "\"Time\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 861,
-      "length": 11,
-      "value": "\"UserCheck\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 889,
-      "length": 6,
-      "value": "\"Wind\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 916,
-      "length": 10,
-      "value": "\"Withdraw\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 167,
-      "length": 14,
-      "value": "\"AngryMadFace\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 202,
-      "length": 10,
-      "value": "\"Asterisk\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 229,
-      "length": 6,
-      "value": "\"Bank\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 256,
-      "length": 10,
-      "value": "\"Calendar\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 284,
-      "length": 7,
-      "value": "\"Check\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 319,
-      "length": 17,
-      "value": "\"ChevronFarRight\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 363,
-      "length": 16,
-      "value": "\"ChevronLeftMid\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 404,
-      "length": 14,
-      "value": "\"ChevronRight\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 435,
-      "length": 6,
-      "value": "\"Copy\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 460,
-      "length": 8,
-      "value": "\"Credit\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 490,
-      "length": 11,
-      "value": "\"CreditPay\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 529,
-      "length": 17,
-      "value": "\"CustomerSupport\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 569,
-      "length": 12,
-      "value": "\"Evaluation\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 600,
-      "length": 8,
-      "value": "\"Freeze\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 635,
-      "length": 16,
-      "value": "\"HappySmileFace\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 668,
-      "length": 6,
-      "value": "\"Home\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 691,
-      "length": 6,
-      "value": "\"Info\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 714,
-      "length": 6,
-      "value": "\"Lock\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 737,
-      "length": 6,
-      "value": "\"More\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 759,
-      "length": 5,
-      "value": "\"PIN\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 781,
-      "length": 6,
-      "value": "\"Plus\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 807,
-      "length": 9,
-      "value": "\"Setting\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 833,
-      "length": 6,
-      "value": "\"Time\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 861,
-      "length": 11,
-      "value": "\"UserCheck\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 889,
-      "length": 6,
-      "value": "\"Wind\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Helpers\/Icon.swift",
-      "kind": "StringLiteral",
-      "offset": 916,
-      "length": 10,
-      "value": "\"Withdraw\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Views\/InfoView.swift",
@@ -3058,6 +4131,48 @@
       "offset": 1449,
       "length": 2,
       "value": "24"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Verification\/Screens\/VerificationSkeletonScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 384,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Verification\/Screens\/VerificationSkeletonScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 436,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Card\/ActivateCard\/Components\/SegmentedEntryView\/SegmentedEntryView.swift",
+      "kind": "StringLiteral",
+      "offset": 272,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Card\/ActivateCard\/Components\/SegmentedEntryView\/SegmentedEntryView.swift",
+      "kind": "StringLiteral",
+      "offset": 306,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Card\/ActivateCard\/Components\/SegmentedEntryView\/SegmentedEntryView.swift",
+      "kind": "StringLiteral",
+      "offset": 340,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Card\/ActivateCard\/Components\/SegmentedEntryView\/SegmentedEntryView.swift",
+      "kind": "StringLiteral",
+      "offset": 374,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Views\/Input\/InputField.swift",
@@ -3139,21 +4254,21 @@
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Verification\/Screens\/PickUpLocationScreen.swift",
       "kind": "StringLiteral",
-      "offset": 2603,
+      "offset": 2549,
       "length": 5,
       "value": "\"SAR\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Verification\/Screens\/PickUpLocationScreen.swift",
       "kind": "StringLiteral",
-      "offset": 2645,
+      "offset": 2591,
       "length": 13,
       "value": "\"RAMI SALEEM\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Verification\/Screens\/PickUpLocationScreen.swift",
       "kind": "StringLiteral",
-      "offset": 2693,
+      "offset": 2639,
       "length": 14,
       "value": "\"962799330292\""
     },
@@ -3174,35 +4289,49 @@
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Card\/CardScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 424,
+      "offset": 450,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Card\/CardScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 466,
+      "offset": 498,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Card\/CardScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 3931,
+      "offset": 540,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Router\/RoutingView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 297,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Router\/RoutingView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 525,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/RootCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 3526,
+      "offset": 3175,
       "length": 15,
       "value": "\"StaqWallet.RootCoordinator\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/RootCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 3526,
+      "offset": 3175,
       "length": 15,
       "value": "\"StaqWallet.RootCoordinator\""
     },
@@ -3342,7 +4471,7 @@
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Verification\/Screens\/VerificationTermsScreen.swift",
       "kind": "StringLiteral",
-      "offset": 2680,
+      "offset": 2626,
       "length": 2,
       "value": "\"\""
     },
@@ -3356,63 +4485,21 @@
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Settings\/Views\/PasswordView.swift",
       "kind": "StringLiteral",
-      "offset": 286,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Settings\/Views\/PasswordView.swift",
-      "kind": "StringLiteral",
-      "offset": 320,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Settings\/Views\/PasswordView.swift",
-      "kind": "StringLiteral",
-      "offset": 354,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Settings\/Views\/PasswordView.swift",
-      "kind": "StringLiteral",
-      "offset": 388,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Settings\/Views\/PasswordView.swift",
-      "kind": "StringLiteral",
-      "offset": 422,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Settings\/Views\/PasswordView.swift",
-      "kind": "StringLiteral",
-      "offset": 456,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Settings\/Views\/PasswordView.swift",
-      "kind": "StringLiteral",
-      "offset": 8282,
-      "length": 10,
-      "value": "\"finished\""
+      "offset": 9456,
+      "length": 8,
+      "value": "\"123456\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Verification\/VerificationCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 1490,
+      "offset": 2069,
       "length": 23,
       "value": "\"StaqWallet.VerificationCoordinator\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Verification\/VerificationCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 1490,
+      "offset": 2069,
       "length": 23,
       "value": "\"StaqWallet.VerificationCoordinator\""
     },
@@ -3459,11 +4546,74 @@
       "value": "\"verification.visa.message\""
     },
     {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Verification\/Screens\/VerificationMobileScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 233,
+      "length": 5,
+      "value": "\"962\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Verification\/Screens\/VerificationMobileScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 282,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Verification\/Screens\/VerificationMobileScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 322,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Verification\/Screens\/VerificationMobileScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 410,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Extentions\/UIApplication+Extension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1035,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Extentions\/UIApplication+Extension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1400,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Transactions\/TransactionsScreen.swift",
       "kind": "StringLiteral",
       "offset": 2508,
       "length": 27,
       "value": "\"yyyy-MM-dd'T'HH:mm:ss.SSS\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Extentions\/UINavigationController+Extension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 219,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Extentions\/UINavigationController+Extension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 606,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Extentions\/UINavigationController+Extension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1014,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Constants\/Constants.swift",
@@ -3676,6 +4826,13 @@
       "value": "\"#D9C8B2\""
     },
     {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Constants\/Theme.swift",
+      "kind": "StringLiteral",
+      "offset": 1396,
+      "length": 9,
+      "value": "\"#1A1E23\""
+    },
+    {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Views\/ProgressBar.swift",
       "kind": "IntegerLiteral",
       "offset": 929,
@@ -3700,6 +4857,13 @@
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Withdrawal\/WithdrawAmount.swift",
       "kind": "BooleanLiteral",
       "offset": 470,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Card\/ActivateCard\/ActivateCardViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 511,
       "length": 5,
       "value": "false"
     },
@@ -3859,17 +5023,38 @@
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Settings\/SettingsView.swift",
+      "kind": "StringLiteral",
+      "offset": 11829,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Settings\/SettingsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 11838,
+      "offset": 11867,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/Settings\/SettingsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 11871,
+      "offset": 11900,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Extentions\/UIViewController+Extension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2389,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Extentions\/UIViewController+Extension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2588,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Constants\/Typography.swift",
@@ -3993,28 +5178,28 @@
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/CardCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 1593,
+      "offset": 1783,
       "length": 15,
       "value": "\"StaqWallet.CardCoordinator\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Cards\/CardCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 1593,
+      "offset": 1783,
       "length": 15,
       "value": "\"StaqWallet.CardCoordinator\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Verification\/Screens\/VerificationVisaScreen.swift",
       "kind": "StringLiteral",
-      "offset": 332,
+      "offset": 234,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/Flows\/Verification\/Screens\/VerificationVisaScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 462,
+      "offset": 362,
       "length": 3,
       "value": "-18"
     },
@@ -4201,6 +5386,20 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/FlowCoordinators\/IFlowCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 727,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/FlowCoordinators\/IFlowCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 876,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/dmitriylunev\/Library\/Developer\/Xcode\/DerivedData\/StaqWallet-csyvgeynthbylycrzhurloqczden\/Build\/Intermediates.noindex\/ArchiveIntermediates\/StaqWallet\/IntermediateBuildFilesPath\/StaqWallet.build\/Release-iphoneos\/StaqWallet.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 737,
@@ -4336,79 +5535,128 @@
     {
       "filePath": "\/Users\/dmitriylunev\/Library\/Developer\/Xcode\/DerivedData\/StaqWallet-csyvgeynthbylycrzhurloqczden\/Build\/Intermediates.noindex\/ArchiveIntermediates\/StaqWallet\/IntermediateBuildFilesPath\/StaqWallet.build\/Release-iphoneos\/StaqWallet.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3368,
+      "offset": 3386,
+      "length": 15,
+      "value": "\"InDevelopment\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Library\/Developer\/Xcode\/DerivedData\/StaqWallet-csyvgeynthbylycrzhurloqczden\/Build\/Intermediates.noindex\/ArchiveIntermediates\/StaqWallet\/IntermediateBuildFilesPath\/StaqWallet.build\/Release-iphoneos\/StaqWallet.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3541,
+      "length": 17,
+      "value": "\"InDevelopmentBg\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Library\/Developer\/Xcode\/DerivedData\/StaqWallet-csyvgeynthbylycrzhurloqczden\/Build\/Intermediates.noindex\/ArchiveIntermediates\/StaqWallet\/IntermediateBuildFilesPath\/StaqWallet.build\/Release-iphoneos\/StaqWallet.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3676,
       "length": 6,
       "value": "\"Info\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Library\/Developer\/Xcode\/DerivedData\/StaqWallet-csyvgeynthbylycrzhurloqczden\/Build\/Intermediates.noindex\/ArchiveIntermediates\/StaqWallet\/IntermediateBuildFilesPath\/StaqWallet.build\/Release-iphoneos\/StaqWallet.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3492,
+      "offset": 3812,
+      "length": 12,
+      "value": "\"JordanFlag\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Library\/Developer\/Xcode\/DerivedData\/StaqWallet-csyvgeynthbylycrzhurloqczden\/Build\/Intermediates.noindex\/ArchiveIntermediates\/StaqWallet\/IntermediateBuildFilesPath\/StaqWallet.build\/Release-iphoneos\/StaqWallet.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3942,
       "length": 6,
       "value": "\"Lock\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Library\/Developer\/Xcode\/DerivedData\/StaqWallet-csyvgeynthbylycrzhurloqczden\/Build\/Intermediates.noindex\/ArchiveIntermediates\/StaqWallet\/IntermediateBuildFilesPath\/StaqWallet.build\/Release-iphoneos\/StaqWallet.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3616,
+      "offset": 4066,
       "length": 6,
       "value": "\"More\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Library\/Developer\/Xcode\/DerivedData\/StaqWallet-csyvgeynthbylycrzhurloqczden\/Build\/Intermediates.noindex\/ArchiveIntermediates\/StaqWallet\/IntermediateBuildFilesPath\/StaqWallet.build\/Release-iphoneos\/StaqWallet.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3738,
+      "offset": 4188,
       "length": 5,
       "value": "\"PIN\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Library\/Developer\/Xcode\/DerivedData\/StaqWallet-csyvgeynthbylycrzhurloqczden\/Build\/Intermediates.noindex\/ArchiveIntermediates\/StaqWallet\/IntermediateBuildFilesPath\/StaqWallet.build\/Release-iphoneos\/StaqWallet.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3861,
+      "offset": 4311,
       "length": 6,
       "value": "\"Plus\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Library\/Developer\/Xcode\/DerivedData\/StaqWallet-csyvgeynthbylycrzhurloqczden\/Build\/Intermediates.noindex\/ArchiveIntermediates\/StaqWallet\/IntermediateBuildFilesPath\/StaqWallet.build\/Release-iphoneos\/StaqWallet.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3991,
+      "offset": 4441,
       "length": 9,
       "value": "\"Setting\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Library\/Developer\/Xcode\/DerivedData\/StaqWallet-csyvgeynthbylycrzhurloqczden\/Build\/Intermediates.noindex\/ArchiveIntermediates\/StaqWallet\/IntermediateBuildFilesPath\/StaqWallet.build\/Release-iphoneos\/StaqWallet.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4128,
+      "offset": 4578,
       "length": 11,
       "value": "\"TapAndPay\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Library\/Developer\/Xcode\/DerivedData\/StaqWallet-csyvgeynthbylycrzhurloqczden\/Build\/Intermediates.noindex\/ArchiveIntermediates\/StaqWallet\/IntermediateBuildFilesPath\/StaqWallet.build\/Release-iphoneos\/StaqWallet.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4257,
+      "offset": 4707,
       "length": 6,
       "value": "\"Time\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Library\/Developer\/Xcode\/DerivedData\/StaqWallet-csyvgeynthbylycrzhurloqczden\/Build\/Intermediates.noindex\/ArchiveIntermediates\/StaqWallet\/IntermediateBuildFilesPath\/StaqWallet.build\/Release-iphoneos\/StaqWallet.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4391,
+      "offset": 4841,
       "length": 11,
       "value": "\"UserCheck\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Library\/Developer\/Xcode\/DerivedData\/StaqWallet-csyvgeynthbylycrzhurloqczden\/Build\/Intermediates.noindex\/ArchiveIntermediates\/StaqWallet\/IntermediateBuildFilesPath\/StaqWallet.build\/Release-iphoneos\/StaqWallet.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4520,
+      "offset": 4970,
       "length": 6,
       "value": "\"Wind\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Library\/Developer\/Xcode\/DerivedData\/StaqWallet-csyvgeynthbylycrzhurloqczden\/Build\/Intermediates.noindex\/ArchiveIntermediates\/StaqWallet\/IntermediateBuildFilesPath\/StaqWallet.build\/Release-iphoneos\/StaqWallet.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4652,
+      "offset": 5102,
       "length": 10,
       "value": "\"Withdraw\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Library\/Developer\/Xcode\/DerivedData\/StaqWallet-csyvgeynthbylycrzhurloqczden\/Build\/Intermediates.noindex\/ArchiveIntermediates\/StaqWallet\/IntermediateBuildFilesPath\/StaqWallet.build\/Release-iphoneos\/StaqWallet.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5266,
+      "length": 24,
+      "value": "\"navigationViewBackIcon\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Library\/Developer\/Xcode\/DerivedData\/StaqWallet-csyvgeynthbylycrzhurloqczden\/Build\/Intermediates.noindex\/ArchiveIntermediates\/StaqWallet\/IntermediateBuildFilesPath\/StaqWallet.build\/Release-iphoneos\/StaqWallet.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5440,
+      "length": 22,
+      "value": "\"onboardingFaceIdIcon\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Library\/Developer\/Xcode\/DerivedData\/StaqWallet-csyvgeynthbylycrzhurloqczden\/Build\/Intermediates.noindex\/ArchiveIntermediates\/StaqWallet\/IntermediateBuildFilesPath\/StaqWallet.build\/Release-iphoneos\/StaqWallet.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5628,
+      "length": 30,
+      "value": "\"onboardingSettingsFaceIdIcon\""
+    },
+    {
+      "filePath": "\/Users\/dmitriylunev\/Library\/Developer\/Xcode\/DerivedData\/StaqWallet-csyvgeynthbylycrzhurloqczden\/Build\/Intermediates.noindex\/ArchiveIntermediates\/StaqWallet\/IntermediateBuildFilesPath\/StaqWallet.build\/Release-iphoneos\/StaqWallet.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5812,
+      "length": 24,
+      "value": "\"onboardingSettingsIcon\""
     }
   ]
 }
