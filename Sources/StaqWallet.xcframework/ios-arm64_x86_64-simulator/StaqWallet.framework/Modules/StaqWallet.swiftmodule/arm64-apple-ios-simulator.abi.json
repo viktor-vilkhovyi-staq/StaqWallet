@@ -3344,196 +3344,196 @@
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 3766,
+      "offset": 3815,
       "length": 38,
       "value": "\"279a8baa-2f87-418d-8bec-bec75b7e8ec8\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 3839,
+      "offset": 3888,
       "length": 90,
       "value": "\"kXnW4tE2Pa\/Fj1CGzsaj2QBYZCMyhRAAbZ4V0CWOrKTyft8TJp7PvVcsaYoLkMI0z8ki62aCfZMPB6Eq5fgWyg==\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 4028,
+      "offset": 4077,
       "length": 27,
       "value": "\"PENDING_IDENTITY_APPROVAL\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 4081,
+      "offset": 4130,
       "length": 16,
       "value": "\"PENDING_YAKEEN\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 4128,
+      "offset": 4177,
       "length": 22,
       "value": "\"PENDING_KYC_APPROVAL\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 4186,
+      "offset": 4235,
       "length": 27,
       "value": "\"PENDING_CODE_VERIFICATION\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 4242,
+      "offset": 4291,
       "length": 19,
       "value": "\"IDENTITY_REJECTED\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 4283,
+      "offset": 4332,
       "length": 11,
       "value": "\"ACTIVATED\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 4315,
+      "offset": 4364,
       "length": 10,
       "value": "\"DISABLED\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 4344,
+      "offset": 4393,
       "length": 8,
       "value": "\"CLOSED\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 4377,
+      "offset": 4426,
       "length": 15,
       "value": "\"PENDING_ENTRY\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 4416,
+      "offset": 4465,
       "length": 14,
       "value": "\"KYC_REJECTED\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 4466,
+      "offset": 4515,
       "length": 27,
       "value": "\"FAILED_YAKEEN_INTEGRATION\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 4518,
+      "offset": 4567,
       "length": 15,
       "value": "\"PENDING_TIMER\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 4559,
+      "offset": 4608,
       "length": 16,
       "value": "\"PENDING_WALLET\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 4028,
+      "offset": 4077,
       "length": 27,
       "value": "\"PENDING_IDENTITY_APPROVAL\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 4081,
+      "offset": 4130,
       "length": 16,
       "value": "\"PENDING_YAKEEN\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 4128,
+      "offset": 4177,
       "length": 22,
       "value": "\"PENDING_KYC_APPROVAL\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 4186,
+      "offset": 4235,
       "length": 27,
       "value": "\"PENDING_CODE_VERIFICATION\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 4242,
+      "offset": 4291,
       "length": 19,
       "value": "\"IDENTITY_REJECTED\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 4283,
+      "offset": 4332,
       "length": 11,
       "value": "\"ACTIVATED\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 4315,
+      "offset": 4364,
       "length": 10,
       "value": "\"DISABLED\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 4344,
+      "offset": 4393,
       "length": 8,
       "value": "\"CLOSED\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 4377,
+      "offset": 4426,
       "length": 15,
       "value": "\"PENDING_ENTRY\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 4416,
+      "offset": 4465,
       "length": 14,
       "value": "\"KYC_REJECTED\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 4466,
+      "offset": 4515,
       "length": 27,
       "value": "\"FAILED_YAKEEN_INTEGRATION\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 4518,
+      "offset": 4567,
       "length": 15,
       "value": "\"PENDING_TIMER\""
     },
     {
       "filePath": "\/Users\/dmitriylunev\/Projects\/trustless-sdk-ios\/StaqWallet\/StaqWallet\/Sources\/StaqWalletNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 4559,
+      "offset": 4608,
       "length": 16,
       "value": "\"PENDING_WALLET\""
     },
