@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/StaqWallet.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		18SP4YoUTtbSE+sjbV/O02HIuOk=
+		lu81pQ6EMAouR8TE1jFjhdb4ZHE=
 		</data>
 		<key>Modules/StaqWallet.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/StaqWallet.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AtUK87iKumeE8Y3zyBq3e5Xltes=
+		LOrHQ6h6T9fwY+40w2w80+oBVWM=
 		</data>
 		<key>Modules/StaqWallet.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		18SP4YoUTtbSE+sjbV/O02HIuOk=
+		lu81pQ6EMAouR8TE1jFjhdb4ZHE=
 		</data>
 		<key>Modules/StaqWallet.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/StaqWallet.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		HKO7mZJvYvoL2rWRdzd3Hn5bwXE=
+		fSheZ/LmFLeyYb/ZGNtJTrii47A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -68,7 +68,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			N7EmCx3kLJN92c1vIeL8BtHbM1w=
+			IFkU/zDTvJgOv/wvz508cQnsAuY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -114,7 +114,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oKC4PpTIh/XiuRKxOmo97ix5lCXfOhgFM266RE1QHrs=
+			Y929rX+j4jPdSrWbgnr3HuCu2ygIQhptBlsYsenMNwU=
 			</data>
 		</dict>
 		<key>Modules/StaqWallet.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -142,14 +142,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ctYPo4ZjrgKt/8AzFdgWcoFv0LYypGpjJLkCvaRExrc=
+			e2SpXJczFtOaB21/OXSm2RF1ID0dnHGlyzBX0dR6Oho=
 			</data>
 		</dict>
 		<key>Modules/StaqWallet.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oKC4PpTIh/XiuRKxOmo97ix5lCXfOhgFM266RE1QHrs=
+			Y929rX+j4jPdSrWbgnr3HuCu2ygIQhptBlsYsenMNwU=
 			</data>
 		</dict>
 		<key>Modules/StaqWallet.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -177,7 +177,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vbyjGMD9q3L+/ySaE9uVOa0JuH7SGVhNPf6xehGHWxY=
+			4ZpG3PKOF8F8iVgGngIh7zlqBZ5RAsnCsICpePEYSI8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -191,7 +191,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zfjULyJcp5vSRonueub0+86ofsrvkofUgrkf0xowK1g=
+			QurepUXhT9I4cPO4lLwmiv0pUk3C1xbWjt/pkISKLDo=
 			</data>
 			<key>optional</key>
 			<true/>
