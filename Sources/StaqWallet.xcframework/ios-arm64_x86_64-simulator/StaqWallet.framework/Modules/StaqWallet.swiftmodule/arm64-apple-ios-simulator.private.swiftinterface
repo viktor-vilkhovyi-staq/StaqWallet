@@ -28,12 +28,9 @@ extension TrustlessSDK.TrustlessError : Swift.Identifiable {
 
 
 
-@_hasMissingDesignatedInitializers final public class AppInitViewModel {
-  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
-  @objc deinit
-}
+
 public struct StaqWalletConfig {
-  public init(userId: Swift.String, secret: Swift.String, language: StaqWallet.SupportedLanguage, googleMapsApiKey: Swift.String, email: Swift.String, mobileNumber: Swift.String? = nil)
+  public init(userId: Swift.String, secret: Swift.String, language: StaqWallet.SupportedLanguage, googleMapsApiKey: Swift.String, email: Swift.String? = nil, mobileNumber: Swift.String? = nil)
 }
 @objc @_Concurrency.MainActor(unsafe) public class StaqWalletNavigationController : UIKit.UINavigationController {
   @_Concurrency.MainActor(unsafe) public init(config: StaqWallet.StaqWalletConfig)
@@ -41,6 +38,31 @@ public struct StaqWalletConfig {
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @objc deinit
 }
+@propertyWrapper public struct UserDefault<T> where T : Swift.Decodable, T : Swift.Encodable {
+  public var defaultValue: T
+  public var wrappedValue: T {
+    get
+    set
+  }
+}
+public enum AppUserDefaultsKey : Swift.String {
+  case otpResendCode
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class AppUserDefaults {
+  @StaqWallet.UserDefault public var otpResendDate: Foundation.Date? {
+    get
+    set
+    _modify
+  }
+  @objc deinit
+}
+
+
 
 
 
@@ -60,6 +82,8 @@ public enum SupportedLanguage : Swift.String {
   }
 }
 @_hasMissingDesignatedInitializers final public class AppUser {
+  final public var language: StaqWallet.SupportedLanguage
+  public static let shared: StaqWallet.AppUser
   public static func set(firstName: Swift.String, lastName: Swift.String, userName: Swift.String, password: Swift.String, email: Swift.String)
   @objc deinit
 }
@@ -67,6 +91,14 @@ final public class AppFlowCoordinator {
   public init()
   final public func start(window: UIKit.UIWindow)
   @objc deinit
+}
+
+
+extension TrustlessSDK.Card : Swift.Equatable {
+  public static func == (lhs: TrustlessSDK.Card, rhs: TrustlessSDK.Card) -> Swift.Bool
+}
+extension TrustlessSDK.CardTransaction : Swift.Equatable {
+  public static func == (lhs: TrustlessSDK.CardTransaction, rhs: TrustlessSDK.CardTransaction) -> Swift.Bool
 }
 
 
@@ -102,11 +134,21 @@ extension UIKit.UINavigationController {
 
 
 
+extension TrustlessSDK.TrustlessError : Swift.Equatable {
+  public static func == (lhs: TrustlessSDK.TrustlessError, rhs: TrustlessSDK.TrustlessError) -> Swift.Bool
+}
+extension TrustlessSDK.TrustlessError.LocalAuthenticationError : Swift.Equatable {
+  public static func == (lhs: TrustlessSDK.TrustlessError.LocalAuthenticationError, rhs: TrustlessSDK.TrustlessError.LocalAuthenticationError) -> Swift.Bool
+}
 
 
 
 
-extension StaqWallet.AppInitViewModel : Combine.ObservableObject {}
+
+
+extension StaqWallet.AppUserDefaultsKey : Swift.Equatable {}
+extension StaqWallet.AppUserDefaultsKey : Swift.Hashable {}
+extension StaqWallet.AppUserDefaultsKey : Swift.RawRepresentable {}
 extension StaqWallet.SupportedLanguage : Swift.Equatable {}
 extension StaqWallet.SupportedLanguage : Swift.Hashable {}
 extension StaqWallet.SupportedLanguage : Swift.RawRepresentable {}
