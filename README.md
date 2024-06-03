@@ -37,21 +37,22 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = scene as? UIWindowScene else { return }
         let window = UIWindow(windowScene: windowScene)
-        self.window = window 
+        self.window = window
 
         let rootVC = UIViewController()
         let navController = UINavigationController(rootViewController: rootVC)  // you existing navigation controller
         window.rootViewController = navController
         window.makeKeyAndVisible()
 
-        AppUser.set(
-            firstName: "user-first-name",
-            lastName: "user-last-name",
-            userName: "username",
-            password: "user-password",
-            email: "user-email"
+        let config = StaqWalletConfig(
+            userId: "user-id",
+            secret: "user-secret",
+            language: .en, // or .ar
+            googleMapsApiKey: "app-google-maps-api-key",
+            email: "user-email",
+            mobileNumber: "user-mobile-phone-number"
         )
-        ClosedWalletAppCoordinator().perform(.start)
+        AppFlowCoordinator(rootVC: navController, withConfigs: config).start()
     }
 }
 ```

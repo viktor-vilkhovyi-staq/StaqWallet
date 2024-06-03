@@ -107,7 +107,7 @@ extension TrustlessSDK.CardTransaction : Swift.Equatable {
   @objc deinit
 }
 final public class ClosedWalletAppCoordinator {
-  public init()
+  public init(rootVC: UIKit.UINavigationController, withConfigs configs: StaqWallet.StaqWalletConfig)
   public enum Action {
     case start
     case betaProgram
@@ -118,7 +118,7 @@ final public class ClosedWalletAppCoordinator {
       get
     }
   }
-  final public func perform(_ action: StaqWallet.ClosedWalletAppCoordinator.Action)
+  final public func start()
   @objc deinit
 }
 
