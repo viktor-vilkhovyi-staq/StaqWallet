@@ -9,7 +9,7 @@ Add the package dependency to your `Package.swift` file and add the dependency t
 ```swift
 dependencies: [
     .package(url: "https://github.com/staqio/TrustlessSDK", branch: "feat/dev-finlab"),
-    .package(url: "https://github.com/staqio/StaqWallet", from: "0.6.2")
+    .package(url: "https://github.com/staqio/StaqWallet", from: "0.6.3")
 ]
 ```
 
@@ -25,7 +25,7 @@ Run the command `swift package update` to download the package and its dependenc
 
 ### Usage
 
-To initiate the Wallet flow, import StaqWallet and utilize the `AppFlowCoordinator` it provides. To start the flow, firstly you need to initialize user and trigger Wallet flow using `AppFlowCoordinator` that provides `start` method. Here is a basic example:
+To initiate the Wallet flow, import StaqWallet and utilize the `ClosedWalletAppCoordinator` it provides. To start the flow, firstly you need to initialize user and trigger Wallet flow using `ClosedWalletAppCoordinator`:
 
 ```swift
 import StaqWallet
@@ -51,7 +51,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             password: "user-password",
             email: "user-email"
         )
-        AppFlowCoordinator().start(window: window)Ï
+        ClosedWalletAppCoordinator().perform(.start)
     }
 }
 ```
