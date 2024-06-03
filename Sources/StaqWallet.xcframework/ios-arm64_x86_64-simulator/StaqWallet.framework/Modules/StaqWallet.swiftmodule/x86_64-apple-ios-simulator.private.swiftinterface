@@ -32,12 +32,6 @@ extension TrustlessSDK.TrustlessError : Swift.Identifiable {
 public struct StaqWalletConfig {
   public init(userId: Swift.String, secret: Swift.String, language: StaqWallet.SupportedLanguage, googleMapsApiKey: Swift.String, email: Swift.String? = nil, mobileNumber: Swift.String? = nil)
 }
-@objc @_Concurrency.MainActor(unsafe) public class StaqWalletNavigationController : UIKit.UINavigationController {
-  @_Concurrency.MainActor(unsafe) public init(config: StaqWallet.StaqWalletConfig)
-  @available(*, unavailable)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @objc deinit
-}
 @propertyWrapper public struct UserDefault<T> where T : Swift.Decodable, T : Swift.Encodable {
   public var defaultValue: T
   public var wrappedValue: T {
@@ -112,6 +106,21 @@ extension TrustlessSDK.CardTransaction : Swift.Equatable {
   public static func checkSecurity()
   @objc deinit
 }
+final public class ClosedWalletAppCoordinator {
+  public init()
+  public enum Action {
+    case start
+    case betaProgram
+    case notice
+    public static func == (a: StaqWallet.ClosedWalletAppCoordinator.Action, b: StaqWallet.ClosedWalletAppCoordinator.Action) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  final public func perform(_ action: StaqWallet.ClosedWalletAppCoordinator.Action)
+  @objc deinit
+}
 
 
 extension UIKit.UIApplication {
@@ -146,9 +155,12 @@ extension TrustlessSDK.TrustlessError.LocalAuthenticationError : Swift.Equatable
 
 
 
+
 extension StaqWallet.AppUserDefaultsKey : Swift.Equatable {}
 extension StaqWallet.AppUserDefaultsKey : Swift.Hashable {}
 extension StaqWallet.AppUserDefaultsKey : Swift.RawRepresentable {}
 extension StaqWallet.SupportedLanguage : Swift.Equatable {}
 extension StaqWallet.SupportedLanguage : Swift.Hashable {}
 extension StaqWallet.SupportedLanguage : Swift.RawRepresentable {}
+extension StaqWallet.ClosedWalletAppCoordinator.Action : Swift.Equatable {}
+extension StaqWallet.ClosedWalletAppCoordinator.Action : Swift.Hashable {}
