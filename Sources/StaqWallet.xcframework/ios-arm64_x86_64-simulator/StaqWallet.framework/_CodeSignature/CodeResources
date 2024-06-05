@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		gAuN8xRHhruOFssrNOnKS50ZvL4=
+		t4DV+V0YGbQBLXI1rx012v/1ILc=
 		</data>
 		<key>Headers/StaqWallet-Swift.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/StaqWallet.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		J5+tE3BIyz7OrBkHhmCY39pWN4s=
+		60wC5TkTr7703wVymaQFr+Fza1g=
 		</data>
 		<key>Modules/StaqWallet.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		kbFppsdpRjKx1sy4tt9x9t+NWaY=
+		62ieA3OdCtNmiSYW2KFx2glx3Jk=
 		</data>
 		<key>Modules/StaqWallet.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,19 +34,19 @@
 		</data>
 		<key>Modules/StaqWallet.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		kbFppsdpRjKx1sy4tt9x9t+NWaY=
+		62ieA3OdCtNmiSYW2KFx2glx3Jk=
 		</data>
 		<key>Modules/StaqWallet.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ySK1GykNmgHBnD/dGjBAFogfh6E=
+		qZzqPh4DBflHcgPNkWySeeNuafY=
 		</data>
 		<key>Modules/StaqWallet.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		J5+tE3BIyz7OrBkHhmCY39pWN4s=
+		60wC5TkTr7703wVymaQFr+Fza1g=
 		</data>
 		<key>Modules/StaqWallet.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		VpyPwA/GnPFLTFTCatZZn+25atU=
+		sA05tQRTVcWstDUIVFl6P4Zb1OA=
 		</data>
 		<key>Modules/StaqWallet.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/StaqWallet.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		VpyPwA/GnPFLTFTCatZZn+25atU=
+		sA05tQRTVcWstDUIVFl6P4Zb1OA=
 		</data>
 		<key>Modules/StaqWallet.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ksctGaGpc6Ac2IvW7Vao2cm9md4=
+		pqXeSK2Mv8PaFrzSUmWWjZK4v/k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -68,7 +68,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7ngMFFPILfvIbL8EUWoD9izJSBM=
+			FaHQWDYuuiC9IyDo3gFADMyjiTI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -77,14 +77,18 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uHuopzZ66zQ2hbW3glMz2Iox40Q=
+			161o/KhtiiyeffWGtvR4vOrBl2o=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>nusuk.pfx</key>
+		<key>nusuk-dev.pfx</key>
 		<data>
 		X0MaLXGwlvqLW1trJNur2jdjGoU=
+		</data>
+		<key>nusuk-prod.p12</key>
+		<data>
+		w0KyLd26ow1w+YwRAIegWParXB0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -93,7 +97,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xOj5lY5rsDA/fsenjE5VQLmKSW+97/zII6euJNT1J4c=
+			z5uSReh1pgD5jJp5UPOI5H8vDa1v+gs+KPIo/gJ6zKk=
 			</data>
 		</dict>
 		<key>Headers/StaqWallet-Swift.h</key>
@@ -114,14 +118,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			le0MLF/yvrJahlAmjm+5nP2LyNBAY49LQythcu3hV60=
+			Yw8PrjuPEH0fpHYSotd/UbkPnlQ8rMaM2HnRFYIxZlc=
 			</data>
 		</dict>
 		<key>Modules/StaqWallet.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7znpAtgrXq/wdSd/ITjFBdqHhI6yUKCRGCjXFx+PIbE=
+			1BDYnzpIKCx1srctvFfDmyvJkjQPhut+4y8b1oQsVhk=
 			</data>
 		</dict>
 		<key>Modules/StaqWallet.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -135,28 +139,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7znpAtgrXq/wdSd/ITjFBdqHhI6yUKCRGCjXFx+PIbE=
+			1BDYnzpIKCx1srctvFfDmyvJkjQPhut+4y8b1oQsVhk=
 			</data>
 		</dict>
 		<key>Modules/StaqWallet.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3CmwBSQan5BiN2gowy3KcRzpGLMo06TKOeuji8v1lI0=
+			kW8Ie7UZpH5axi5+D/BJM9+On+Txm5rH8P4A07XvAaE=
 			</data>
 		</dict>
 		<key>Modules/StaqWallet.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			le0MLF/yvrJahlAmjm+5nP2LyNBAY49LQythcu3hV60=
+			Yw8PrjuPEH0fpHYSotd/UbkPnlQ8rMaM2HnRFYIxZlc=
 			</data>
 		</dict>
 		<key>Modules/StaqWallet.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yo+CzSCN7qlpxcGuyumUqgjcceA/U+PAzUvryWPJ598=
+			uh6AQX0gEcNbr96cYTmeGEjZraKFKM4XiU+n6K2nnL8=
 			</data>
 		</dict>
 		<key>Modules/StaqWallet.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -170,14 +174,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yo+CzSCN7qlpxcGuyumUqgjcceA/U+PAzUvryWPJ598=
+			uh6AQX0gEcNbr96cYTmeGEjZraKFKM4XiU+n6K2nnL8=
 			</data>
 		</dict>
 		<key>Modules/StaqWallet.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hLBz88/Am/XDi2LLtKTPqLQUcBn4N8SiOXmunn1RY6k=
+			lSJsS3MHwRSf03ssDY+XrMvMy4jNMnZAQHe5QfLtkT4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -191,7 +195,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nWzodbMmN0yz/cgIZDlSKfxduGQZD3Dk5OL5TkQnLbE=
+			mjcRghzdXWFdlVQYOLm/slpD+umox7bm1N4bpeyzjFI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -200,16 +204,23 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			f/dY2269YYGD/lUFwIYWHbJJqO9Od2CIkAdW04BwbLc=
+			JZIdYJn7owrPyjKNWRmavgPsSLm11YD8//Rw3drSDcg=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>nusuk.pfx</key>
+		<key>nusuk-dev.pfx</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			r5W/hXnSKDHBmqhyAYUcc7UC03GwJOHuqJq9NwZSvEE=
+			</data>
+		</dict>
+		<key>nusuk-prod.p12</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QdFAUPoTQKHp/2gS0SWIWjCO3qEuyfYC4c7OvET0OBk=
 			</data>
 		</dict>
 	</dict>

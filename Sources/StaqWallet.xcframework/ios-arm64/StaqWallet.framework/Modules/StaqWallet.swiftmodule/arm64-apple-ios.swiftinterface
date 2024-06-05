@@ -3,6 +3,7 @@
 // swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name StaqWallet
 import SystemConfiguration.CaptiveNetwork
 import Combine
+import CryptoKit
 import DeveloperToolsSupport
 import Foundation
 import LocalAuthentication
@@ -30,7 +31,7 @@ extension TrustlessSDK.TrustlessError : Swift.Identifiable {
 
 
 public struct StaqWalletConfig {
-  public init(userId: Swift.String, secret: Swift.String, language: StaqWallet.SupportedLanguage, googleMapsApiKey: Swift.String, email: Swift.String? = nil, mobileNumber: Swift.String? = nil)
+  public init(userId: Swift.String, secret: Swift.String, email: Swift.String? = nil, language: StaqWallet.SupportedLanguage, googleMapsApiKey: Swift.String, mobileNumber: Swift.String? = nil)
 }
 @propertyWrapper public struct UserDefault<T> where T : Swift.Decodable, T : Swift.Encodable {
   public var defaultValue: T
@@ -75,15 +76,9 @@ public enum SupportedLanguage : Swift.String {
     get
   }
 }
-@_hasMissingDesignatedInitializers final public class AppUser {
-  final public var language: StaqWallet.SupportedLanguage
-  public static let shared: StaqWallet.AppUser
-  public static func set(firstName: Swift.String, lastName: Swift.String, userName: Swift.String, password: Swift.String, email: Swift.String)
-  @objc deinit
-}
 final public class AppFlowCoordinator {
-  public init()
-  final public func start(window: UIKit.UIWindow)
+  public init(config: StaqWallet.StaqWalletConfig)
+  final public func start()
   @objc deinit
 }
 
@@ -143,12 +138,14 @@ extension UIKit.UINavigationController {
 
 
 
+
 extension TrustlessSDK.TrustlessError : Swift.Equatable {
   public static func == (lhs: TrustlessSDK.TrustlessError, rhs: TrustlessSDK.TrustlessError) -> Swift.Bool
 }
 extension TrustlessSDK.TrustlessError.LocalAuthenticationError : Swift.Equatable {
   public static func == (lhs: TrustlessSDK.TrustlessError.LocalAuthenticationError, rhs: TrustlessSDK.TrustlessError.LocalAuthenticationError) -> Swift.Bool
 }
+
 
 
 
