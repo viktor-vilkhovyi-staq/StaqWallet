@@ -33,29 +33,6 @@ extension TrustlessSDK.TrustlessError : Swift.Identifiable {
 public struct StaqWalletConfig {
   public init(userId: Swift.String, secret: Swift.String, email: Swift.String? = nil, language: StaqWallet.SupportedLanguage, googleMapsApiKey: Swift.String, mobileNumber: Swift.String? = nil)
 }
-@propertyWrapper public struct UserDefault<T> where T : Swift.Decodable, T : Swift.Encodable {
-  public var defaultValue: T
-  public var wrappedValue: T {
-    get
-    set
-  }
-}
-public enum AppUserDefaultsKey : Swift.String {
-  case otpResendCode
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-@_hasMissingDesignatedInitializers public class AppUserDefaults {
-  @StaqWallet.UserDefault public var otpResendDate: Foundation.Date? {
-    get
-    set
-    _modify
-  }
-  @objc deinit
-}
 
 
 
@@ -153,9 +130,6 @@ extension TrustlessSDK.TrustlessError.LocalAuthenticationError : Swift.Equatable
 
 
 
-extension StaqWallet.AppUserDefaultsKey : Swift.Equatable {}
-extension StaqWallet.AppUserDefaultsKey : Swift.Hashable {}
-extension StaqWallet.AppUserDefaultsKey : Swift.RawRepresentable {}
 extension StaqWallet.SupportedLanguage : Swift.Equatable {}
 extension StaqWallet.SupportedLanguage : Swift.Hashable {}
 extension StaqWallet.SupportedLanguage : Swift.RawRepresentable {}
