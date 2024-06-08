@@ -25,7 +25,7 @@ Run the command `swift package update` to download the package and its dependenc
 
 ### Usage
 
-To initiate the Wallet flow, import StaqWallet and utilize the `ClosedWalletAppCoordinator` it provides. To start the flow, firstly you need to initialize user and trigger Wallet flow using `ClosedWalletAppCoordinator`:
+To initiate the Wallet flow, import StaqWallet and utilize the `Appflowcoordinator` it provides. To start the flow, firstly you need to initialize user and trigger Wallet flow using `Appflowcoordinator`:
 
 ```swift
 import StaqWallet
