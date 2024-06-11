@@ -17,6 +17,15 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public enum StaqWalletEnvironment {
+  case development
+  case production
+  public static func == (a: StaqWallet.StaqWalletEnvironment, b: StaqWallet.StaqWalletEnvironment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 extension TrustlessSDK.TrustlessError : Swift.Identifiable {
   public var id: Swift.String {
     get
@@ -26,13 +35,12 @@ extension TrustlessSDK.TrustlessError : Swift.Identifiable {
 
 
 
-
-
-
-
 public struct StaqWalletConfig {
-  public init(userId: Swift.String, secret: Swift.String, email: Swift.String? = nil, language: StaqWallet.SupportedLanguage, googleMapsApiKey: Swift.String, mobileNumber: Swift.String? = nil)
+  public init(userId: Swift.String, secret: Swift.String, email: Swift.String? = nil, mobileNumber: Swift.String? = nil, language: StaqWallet.SupportedLanguage, googleMapsApiKey: Swift.String, walletEnv: StaqWallet.StaqWalletEnvironment = .production)
 }
+
+
+
 
 
 
@@ -104,23 +112,26 @@ extension UIKit.UIApplication {
 extension UIKit.UIApplication : UIKit.UIGestureRecognizerDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
 }
-
 extension UIKit.UINavigationController {
   @_Concurrency.MainActor(unsafe) public func pushVC(_ vc: UIKit.UIViewController, animated: Swift.Bool = true, completion: @escaping () -> Swift.Void)
   @_Concurrency.MainActor(unsafe) public func popViewController(animated: Swift.Bool = true, completion: @escaping () -> Swift.Void)
   @_Concurrency.MainActor(unsafe) public func popToViewController(_ vc: UIKit.UIViewController, animated: Swift.Bool = true, completion: @escaping () -> Swift.Void)
 }
 
-
-
-
-
-
-extension TrustlessSDK.TrustlessError : Swift.Equatable {
-  public static func == (lhs: TrustlessSDK.TrustlessError, rhs: TrustlessSDK.TrustlessError) -> Swift.Bool
+public struct Shimmer : SwiftUI.ViewModifier {
+  public init(animation: SwiftUI.Animation = Self.defaultAnimation, gradient: SwiftUI.Gradient = Self.defaultGradient, bandSize: CoreFoundation.CGFloat = 0.3)
+  public static let defaultAnimation: SwiftUI.Animation
+  public static let defaultGradient: SwiftUI.Gradient
+  @_Concurrency.MainActor(unsafe) public func body(content: StaqWallet.Shimmer.Content) -> some SwiftUI.View
+  
+  public typealias Body = @_opaqueReturnTypeOf("$s10StaqWallet7ShimmerV4body7contentQr7SwiftUI21_ViewModifier_ContentVyACG_tF", 0) __
 }
-extension TrustlessSDK.TrustlessError.LocalAuthenticationError : Swift.Equatable {
-  public static func == (lhs: TrustlessSDK.TrustlessError.LocalAuthenticationError, rhs: TrustlessSDK.TrustlessError.LocalAuthenticationError) -> Swift.Bool
+extension SwiftUI.View {
+  public func shimmering(active: Swift.Bool = true, animation: SwiftUI.Animation = Shimmer.defaultAnimation, gradient: SwiftUI.Gradient = Shimmer.defaultGradient, bandSize: CoreFoundation.CGFloat = 0.3) -> some SwiftUI.View
+  
+  @available(*, deprecated, message: "Use shimmering(active:animation:gradient:bandSize:) instead.")
+  public func shimmering(active: Swift.Bool = true, duration: Swift.Double, bounce: Swift.Bool = false, delay: Swift.Double = 0.25) -> some SwiftUI.View
+  
 }
 
 
@@ -130,6 +141,11 @@ extension TrustlessSDK.TrustlessError.LocalAuthenticationError : Swift.Equatable
 
 
 
+
+
+
+extension StaqWallet.StaqWalletEnvironment : Swift.Equatable {}
+extension StaqWallet.StaqWalletEnvironment : Swift.Hashable {}
 extension StaqWallet.SupportedLanguage : Swift.Equatable {}
 extension StaqWallet.SupportedLanguage : Swift.Hashable {}
 extension StaqWallet.SupportedLanguage : Swift.RawRepresentable {}
