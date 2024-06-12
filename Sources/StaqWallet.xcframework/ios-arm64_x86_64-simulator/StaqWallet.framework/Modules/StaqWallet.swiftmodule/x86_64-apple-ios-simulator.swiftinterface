@@ -3,7 +3,7 @@
 // swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name StaqWallet
 import SystemConfiguration.CaptiveNetwork
 import Combine
-import CryptoKit
+import CommonCrypto
 import DeveloperToolsSupport
 import Foundation
 import LocalAuthentication
@@ -38,7 +38,6 @@ extension TrustlessSDK.TrustlessError : Swift.Identifiable {
 public struct StaqWalletConfig {
   public init(userId: Swift.String, secret: Swift.String, email: Swift.String? = nil, mobileNumber: Swift.String? = nil, language: StaqWallet.SupportedLanguage, googleMapsApiKey: Swift.String, walletEnv: StaqWallet.StaqWalletEnvironment = .production)
 }
-
 
 
 
