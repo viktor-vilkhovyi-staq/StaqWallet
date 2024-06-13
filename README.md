@@ -9,7 +9,7 @@ Add the package dependency to your `Package.swift` file and add the dependency t
 ```swift
 dependencies: [
     .package(url: "https://github.com/staqio/TrustlessSDK", branch: "0.5.1"),
-    .package(url: "https://github.com/staqio/StaqWallet", from: "0.7.4")
+    .package(url: "https://github.com/staqio/StaqWallet", from: "0.7.5")
 ]
 ```
 
