@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
 // swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name StaqWallet
+import AudioToolbox
 import SystemConfiguration.CaptiveNetwork
 import Combine
 import CommonCrypto
@@ -26,29 +27,11 @@ public enum StaqWalletEnvironment {
     get
   }
 }
-extension TrustlessSDK.TrustlessError : Swift.Identifiable {
-  public var id: Swift.String {
-    get
-  }
-  public typealias ID = Swift.String
-}
-
 
 
 public struct StaqWalletConfig {
   public init(userId: Swift.String, secret: Swift.String, email: Swift.String? = nil, mobileNumber: Swift.String? = nil, language: StaqWallet.SupportedLanguage, googleMapsApiKey: Swift.String, walletEnv: StaqWallet.StaqWalletEnvironment = .production)
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 public enum SupportedLanguage : Swift.String {
@@ -60,11 +43,8 @@ public enum SupportedLanguage : Swift.String {
     get
   }
 }
-final public class AppFlowCoordinator {
-  public init(config: StaqWallet.StaqWalletConfig)
-  final public func start()
-  @objc deinit
-}
+
+
 
 
 extension TrustlessSDK.Card : Swift.Equatable {
@@ -73,8 +53,26 @@ extension TrustlessSDK.Card : Swift.Equatable {
 extension TrustlessSDK.CardTransaction : Swift.Equatable {
   public static func == (lhs: TrustlessSDK.CardTransaction, rhs: TrustlessSDK.CardTransaction) -> Swift.Bool
 }
+extension TrustlessSDK.TrustlessError : Swift.Identifiable {
+  public var id: Swift.String {
+    get
+  }
+  public typealias ID = Swift.String
+}
 
 
+
+
+
+
+
+
+
+final public class AppFlowCoordinator {
+  public init(config: StaqWallet.StaqWalletConfig)
+  final public func start()
+  @objc deinit
+}
 
 
 
@@ -85,21 +83,7 @@ extension TrustlessSDK.CardTransaction : Swift.Equatable {
   public static func checkSecurity()
   @objc deinit
 }
-final public class ClosedWalletAppCoordinator {
-  public init(rootVC: UIKit.UINavigationController, withConfigs configs: StaqWallet.StaqWalletConfig)
-  public enum Action {
-    case start
-    case betaProgram
-    case notice
-    public static func == (a: StaqWallet.ClosedWalletAppCoordinator.Action, b: StaqWallet.ClosedWalletAppCoordinator.Action) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
-    public var hashValue: Swift.Int {
-      get
-    }
-  }
-  final public func start()
-  @objc deinit
-}
+
 
 
 extension UIKit.UIApplication {
@@ -108,14 +92,12 @@ extension UIKit.UIApplication {
     get
   }
 }
-extension UIKit.UIApplication : UIKit.UIGestureRecognizerDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
-}
 extension UIKit.UINavigationController {
   @_Concurrency.MainActor(unsafe) public func pushVC(_ vc: UIKit.UIViewController, animated: Swift.Bool = true, completion: @escaping () -> Swift.Void)
   @_Concurrency.MainActor(unsafe) public func popViewController(animated: Swift.Bool = true, completion: @escaping () -> Swift.Void)
   @_Concurrency.MainActor(unsafe) public func popToViewController(_ vc: UIKit.UIViewController, animated: Swift.Bool = true, completion: @escaping () -> Swift.Void)
 }
+
 
 public struct Shimmer : SwiftUI.ViewModifier {
   public init(animation: SwiftUI.Animation = Self.defaultAnimation, gradient: SwiftUI.Gradient = Self.defaultGradient, bandSize: CoreFoundation.CGFloat = 0.3)
@@ -142,11 +124,8 @@ extension SwiftUI.View {
 
 
 
-
 extension StaqWallet.StaqWalletEnvironment : Swift.Equatable {}
 extension StaqWallet.StaqWalletEnvironment : Swift.Hashable {}
 extension StaqWallet.SupportedLanguage : Swift.Equatable {}
 extension StaqWallet.SupportedLanguage : Swift.Hashable {}
 extension StaqWallet.SupportedLanguage : Swift.RawRepresentable {}
-extension StaqWallet.ClosedWalletAppCoordinator.Action : Swift.Equatable {}
-extension StaqWallet.ClosedWalletAppCoordinator.Action : Swift.Hashable {}

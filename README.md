@@ -8,8 +8,8 @@ Add the package dependency to your `Package.swift` file and add the dependency t
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/staqio/TrustlessSDK", branch: "0.5.1"),
-    .package(url: "https://github.com/staqio/StaqWallet", from: "0.7.5")
+    .package(url: "https://github.com/staqio/TrustlessSDK", branch: "0.5.2"),
+    .package(url: "https://github.com/staqio/StaqWallet", from: "0.8.0")
 ]
 ```
 
@@ -25,7 +25,9 @@ Run the command `swift package update` to download the package and its dependenc
 
 ### Usage
 
-To initiate the Wallet flow, import StaqWallet and utilize the `AppFlowCoordinator` it provides. To start the flow, firstly you need to initialize user and trigger Wallet flow using `AppFlowCoordinator`:
+To initiate the Wallet flow, import StaqWallet and utilize the `AppFlowCoordinator` it provides. To start the flow, firstly you need to initialize user and trigger Wallet flow using `AppFlowCoordinator`.
+
+To enable Face ID, open the plist and add the parameter `Privacy` - `Face ID Usage Description` with your description value.
 
 ```swift
 import StaqWallet

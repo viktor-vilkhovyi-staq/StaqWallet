@@ -1,0 +1,1689 @@
+[
+    {
+        "country": "Afghanistan",
+        "country_ar": "أفغانستان",
+        "iso": "AF",
+        "code": "+93",
+        "format": "XXX XXX XXXX"
+    },
+    {
+        "country": "Aland Islands",
+        "country_ar": "جزر أولاند",
+        "iso": "AX",
+        "code": "+358",
+        "format": "XXX XXX XXXX"
+    },
+    {
+        "country": "Albania",
+        "country_ar": "ألبانيا",
+        "iso": "AL",
+        "code": "+355",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Algeria",
+        "country_ar": "الجزائر",
+        "iso": "DZ",
+        "code": "+213",
+        "format": "XXX XXX XXXX"
+    },
+    {
+        "country": "American Samoa",
+        "country_ar": "ساموا الأمريكية",
+        "iso": "AS",
+        "code": "+1684",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Andorra",
+        "country_ar": "أندورا",
+        "iso": "AD",
+        "code": "+376",
+        "format": "XXX XXX"
+    },
+    {
+        "country": "Angola",
+        "country_ar": "أنغولا",
+        "iso": "AO",
+        "code": "+244",
+        "format": "XXX XXX XXX"
+    },
+    {
+        "country": "Anguilla",
+        "country_ar": "أنغويلا",
+        "iso": "AI",
+        "code": "+1264",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Antarctica",
+        "country_ar": "القارة القطبية الجنوبية",
+        "iso": "AQ",
+        "code": "+672",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Antigua and Barbuda",
+        "country_ar": "أنتيغوا وباربودا",
+        "iso": "AG",
+        "code": "+1268",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Argentina",
+        "country_ar": "الأرجنتين",
+        "iso": "AR",
+        "code": "+54",
+        "format": "XX XXXX XXXX"
+    },
+    {
+        "country": "Armenia",
+        "country_ar": "أرمينيا",
+        "iso": "AM",
+        "code": "+374",
+        "format": "XX XXX XXX"
+    },
+    {
+        "country": "Aruba",
+        "country_ar": "أروبا",
+        "iso": "AW",
+        "code": "+297",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Australia",
+        "country_ar": "أستراليا",
+        "iso": "AU",
+        "code": "+61",
+        "format": "X XXXX XXXX"
+    },
+    {
+        "country": "Austria",
+        "country_ar": "النمسا",
+        "iso": "AT",
+        "code": "+43",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Azerbaijan",
+        "country_ar": "أذربيجان",
+        "iso": "AZ",
+        "code": "+994",
+        "format": "XX XXX XX XX"
+    },
+    {
+        "country": "Bahamas",
+        "country_ar": "جزر البهاما",
+        "iso": "BS",
+        "code": "+1242",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Bahrain",
+        "country_ar": "البحرين",
+        "iso": "BH",
+        "code": "+973",
+        "format": "XXXX XXXX"
+    },
+    {
+        "country": "Bangladesh",
+        "country_ar": "بنغلاديش",
+        "iso": "BD",
+        "code": "+880",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Barbados",
+        "country_ar": "باربادوس",
+        "iso": "BB",
+        "code": "+1246",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Belarus",
+        "country_ar": "بيلاروسيا",
+        "iso": "BY",
+        "code": "+375",
+        "format": "XX XXX XX XX"
+    },
+    {
+        "country": "Belgium",
+        "country_ar": "بلجيكا",
+        "iso": "BE",
+        "code": "+32",
+        "format": "XXX XX XX XX"
+    },
+    {
+        "country": "Belize",
+        "country_ar": "بليز",
+        "iso": "BZ",
+        "code": "+501",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Benin",
+        "country_ar": "بنين",
+        "iso": "BJ",
+        "code": "+229",
+        "format": "XX XX XX XX"
+    },
+    {
+        "country": "Bermuda",
+        "country_ar": "برمودا",
+        "iso": "BM",
+        "code": "+1441",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Bhutan",
+        "country_ar": "بوتان",
+        "iso": "BT",
+        "code": "+975",
+        "format": "XXXX XXXX"
+    },
+    {
+        "country": "Bolivia",
+        "country_ar": "بوليفيا",
+        "iso": "BO",
+        "code": "+591",
+        "format": "X XXX XXXX"
+    },
+    {
+        "country": "Bosnia and Herzegovina",
+        "country_ar": "البوسنة والهرسك",
+        "iso": "BA",
+        "code": "+387",
+        "format": "XX XXX XXX"
+    },
+    {
+        "country": "Botswana",
+        "country_ar": "بوتسوانا",
+        "iso": "BW",
+        "code": "+267",
+        "format": "XX XXX XXX"
+    },
+    {
+        "country": "Brazil",
+        "country_ar": "البرازيل",
+        "iso": "BR",
+        "code": "+55",
+        "format": "XX XXXXX XXXX"
+    },
+    {
+        "country": "British Indian Ocean Territory",
+        "country_ar": "إقليم المحيط الهندي البريطاني",
+        "iso": "IO",
+        "code": "+246",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Brunei Darussalam",
+        "country_ar": "بروناي دار السلام",
+        "iso": "BN",
+        "code": "+673",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Bulgaria",
+        "country_ar": "بلغاريا",
+        "iso": "BG",
+        "code": "+359",
+        "format": "XXX XXX"
+    },
+    {
+        "country": "Burkina Faso",
+        "country_ar": "بوركينا فاسو",
+        "iso": "BF",
+        "code": "+226",
+        "format": "XX XX XX XX"
+    },
+    {
+        "country": "Burundi",
+        "country_ar": "بوروندي",
+        "iso": "BI",
+        "code": "+257",
+        "format": "XX XX XX XX"
+    },
+    {
+        "country": "Cambodia",
+        "country_ar": "كمبوديا",
+        "iso": "KH",
+        "code": "+855",
+        "format": "XX XXX XXX"
+    },
+    {
+        "country": "Cameroon",
+        "country_ar": "الكاميرون",
+        "iso": "CM",
+        "code": "+237",
+        "format": "XX XX XX XX"
+    },
+    {
+        "country": "Canada",
+        "country_ar": "كندا",
+        "iso": "CA",
+        "code": "+1",
+        "format": "XXX XXX XXXX"
+    },
+    {
+        "country": "Cape Verde",
+        "country_ar": "الرأس الأخضر",
+        "iso": "CV",
+        "code": "+238",
+        "format": "XXX XX XX"
+    },
+    {
+        "country": "Cayman Islands",
+        "country_ar": "جزر كايمان",
+        "iso": "KY",
+        "code": "+345",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Central African Republic",
+        "country_ar": "جمهورية أفريقيا الوسطى",
+        "iso": "CF",
+        "code": "+236",
+        "format": "XX XX XX XX"
+    },
+    {
+        "country": "Chad",
+        "country_ar": "تشاد",
+        "iso": "TD",
+        "code": "+235",
+        "format": "XX XX XX XX"
+    },
+    {
+        "country": "Chile",
+        "country_ar": "تشيلي",
+        "iso": "CL",
+        "code": "+56",
+        "format": "X XXXX XXXX"
+    },
+    {
+        "country": "China",
+        "country_ar": "الصين",
+        "iso": "CN",
+        "code": "+86",
+        "format": "XXX XXXX XXXX"
+    },
+    {
+        "country": "Christmas Island",
+        "country_ar": "جزيرة عيد الميلاد",
+        "iso": "CX",
+        "code": "+61",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Cocos (Keeling) Islands",
+        "country_ar": "جزر كوكوس (كيلينغ)",
+        "iso": "CC",
+        "code": "+61",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Colombia",
+        "country_ar": "كولومبيا",
+        "iso": "CO",
+        "code": "+57",
+        "format": "XXX XXX XXXX"
+    },
+    {
+        "country": "Comoros",
+        "country_ar": "جزر القمر",
+        "iso": "KM",
+        "code": "+269",
+        "format": "XX XXX XXX"
+    },
+    {
+        "country": "Congo",
+        "country_ar": "جمهورية الكونغو",
+        "iso": "CG",
+        "code": "+242",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Congo, The Democratic Republic of the Congo",
+        "country_ar": "جمهورية الكونغو الديمقراطية",
+        "iso": "CD",
+        "code": "+243",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Cook Islands",
+        "country_ar": "جزر كوك",
+        "iso": "CK",
+        "code": "+682",
+        "format": "XX XXX"
+    },
+    {
+        "country": "Costa Rica",
+        "country_ar": "كوستاريكا",
+        "iso": "CR",
+        "code": "+506",
+        "format": "XXXX XXXX"
+    },
+    {
+        "country": "Cote d'Ivoire",
+        "country_ar": "ساحل العاج",
+        "iso": "CI",
+        "code": "+225",
+        "format": "XX XXX XXX"
+    },
+    {
+        "country": "Croatia",
+        "country_ar": "كرواتيا",
+        "iso": "HR",
+        "code": "+385",
+        "format": "XX XXX XXX"
+    },
+    {
+        "country": "Cuba",
+        "country_ar": "كوبا",
+        "iso": "CU",
+        "code": "+53",
+        "format": "X XXX XXXX"
+    },
+    {
+        "country": "Cyprus",
+        "country_ar": "قبرص",
+        "iso": "CY",
+        "code": "+357",
+        "format": "XX XXX XXX"
+    },
+    {
+        "country": "Czech Republic",
+        "country_ar": "جمهورية التشيك",
+        "iso": "CZ",
+        "code": "+420",
+        "format": "XXX XXX XXX"
+    },
+    {
+        "country": "Denmark",
+        "country_ar": "الدنمارك",
+        "iso": "DK",
+        "code": "+45",
+        "format": "XX XX XX XX"
+    },
+    {
+        "country": "Djibouti",
+        "country_ar": "جيبوتي",
+        "iso": "DJ",
+        "code": "+253",
+        "format": "XX XX XX XX"
+    },
+    {
+        "country": "Dominica",
+        "country_ar": "دومينيكا",
+        "iso": "DM",
+        "code": "+1767",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Dominican Republic",
+        "country_ar": "جمهورية الدومينيكان",
+        "iso": "DO",
+        "code": "+1849",
+        "format": "XXX XXX XXXX"
+    },
+    {
+        "country": "Ecuador",
+        "country_ar": "الإكوادور",
+        "iso": "EC",
+        "code": "+593",
+        "format": "X XXX XXXX"
+    },
+    {
+        "country": "Egypt",
+        "country_ar": "مصر",
+        "iso": "EG",
+        "code": "+20",
+        "format": "X XXXX XXXX"
+    },
+    {
+        "country": "El Salvador",
+        "country_ar": "السلفادور",
+        "iso": "SV",
+        "code": "+503",
+        "format": "XXXX XXXX"
+    },
+    {
+        "country": "Equatorial Guinea",
+        "country_ar": "غينيا الاستوائية",
+        "iso": "GQ",
+        "code": "+240",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Eritrea",
+        "country_ar": "إريتريا",
+        "iso": "ER",
+        "code": "+291",
+        "format": "X XXX XXX"
+    },
+    {
+        "country": "Estonia",
+        "country_ar": "إستونيا",
+        "iso": "EE",
+        "code": "+372",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Ethiopia",
+        "country_ar": "إثيوبيا",
+        "iso": "ET",
+        "code": "+251",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Falkland Islands (Malvinas)",
+        "country_ar": "جزر فوكلاند (مالفيناس)",
+        "iso": "FK",
+        "code": "+500",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Faroe Islands",
+        "country_ar": "جزر فارو",
+        "iso": "FO",
+        "code": "+298",
+        "format": "XXX XXX"
+    },
+    {
+        "country": "Fiji",
+        "country_ar": "فيجي",
+        "iso": "FJ",
+        "code": "+679",
+        "format": "XXX XXX"
+    },
+    {
+        "country": "Finland",
+        "country_ar": "فنلندا",
+        "iso": "FI",
+        "code": "+358",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "France",
+        "country_ar": "فرنسا",
+        "iso": "FR",
+        "code": "+33",
+        "format": "X XX XX XX XX"
+    },
+    {
+        "country": "French Guiana",
+        "country_ar": "غويانا الفرنسية",
+        "iso": "GF",
+        "code": "+594",
+        "format": "X XX XX XX XX"
+    },
+    {
+        "country": "French Polynesia",
+        "country_ar": "بولينيزيا الفرنسية",
+        "iso": "PF",
+        "code": "+689",
+        "format": "XX XX XX"
+    },
+    {
+        "country": "Gabon",
+        "country_ar": "الغابون",
+        "iso": "GA",
+        "code": "+241",
+        "format": "XX XX XX XX"
+    },
+    {
+        "country": "Gambia",
+        "country_ar": "غامبيا",
+        "iso": "GM",
+        "code": "+220",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Georgia",
+        "country_ar": "جورجيا",
+        "iso": "GE",
+        "code": "+995",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Germany",
+        "country_ar": "ألمانيا",
+        "iso": "DE",
+        "code": "+49",
+        "format": "XXX XXX XXXX"
+    },
+    {
+        "country": "Ghana",
+        "country_ar": "غانا",
+        "iso": "GH",
+        "code": "+233",
+        "format": "XXX XXX XXX"
+    },
+    {
+        "country": "Gibraltar",
+        "country_ar": "جبل طارق",
+        "iso": "GI",
+        "code": "+350",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Greece",
+        "country_ar": "اليونان",
+        "iso": "GR",
+        "code": "+30",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Greenland",
+        "country_ar": "جرينلاند",
+        "iso": "GL",
+        "code": "+299",
+        "format": "XX XX XX"
+    },
+    {
+        "country": "Grenada",
+        "country_ar": "غرينادا",
+        "iso": "GD",
+        "code": "+1473",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Guadeloupe",
+        "country_ar": "جوادلوب",
+        "iso": "GP",
+        "code": "+590",
+        "format": "X XX XX XX XX"
+    },
+    {
+        "country": "Guam",
+        "country_ar": "غوام",
+        "iso": "GU",
+        "code": "+1671",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Guatemala",
+        "country_ar": "غواتيمالا",
+        "iso": "GT",
+        "code": "+502",
+        "format": "X XXX XXXX"
+    },
+    {
+        "country": "Guernsey",
+        "country_ar": "غيرنزي",
+        "iso": "GG",
+        "code": "+44",
+        "format": "XXXX XXXXXX"
+    },
+    {
+        "country": "Guinea",
+        "country_ar": "غينيا",
+        "iso": "GN",
+        "code": "+224",
+        "format": "XX XXX XX XX"
+    },
+    {
+        "country": "Guinea-Bissau",
+        "country_ar": "غينيا بيساو",
+        "iso": "GW",
+        "code": "+245",
+        "format": "XXX XX XX"
+    },
+    {
+        "country": "Guyana",
+        "country_ar": "غيانا",
+        "iso": "GY",
+        "code": "+595",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Haiti",
+        "country_ar": "هايتي",
+        "iso": "HT",
+        "code": "+509",
+        "format": "XX XX XX XX"
+    },
+    {
+        "country": "Holy See (Vatican City State)",
+        "country_ar": "الفاتيكان",
+        "iso": "VA",
+        "code": "+379",
+        "format": "X XX XX XX XX"
+    },
+    {
+        "country": "Honduras",
+        "country_ar": "هندوراس",
+        "iso": "HN",
+        "code": "+504",
+        "format": "XXXX XXXX"
+    },
+    {
+        "country": "Hong Kong",
+        "country_ar": "هونغ كونغ",
+        "iso": "HK",
+        "code": "+852",
+        "format": "XXXX XXXX"
+    },
+    {
+        "country": "Hungary",
+        "country_ar": "المجر",
+        "iso": "HU",
+        "code": "+36",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Iceland",
+        "country_ar": "أيسلندا",
+        "iso": "IS",
+        "code": "+354",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "India",
+        "country_ar": "الهند",
+        "iso": "IN",
+        "code": "+91",
+        "format": "XXXXX XXXXX"
+    },
+    {
+        "country": "Indonesia",
+        "country_ar": "إندونيسيا",
+        "iso": "ID",
+        "code": "+62",
+        "format": "XX XXX XXX"
+    },
+    {
+        "country": "Iran",
+        "country_ar": "إيران",
+        "iso": "IR",
+        "code": "+98",
+        "format": "XXXX XXX XXXX"
+    },
+    {
+        "country": "Iraq",
+        "country_ar": "العراق",
+        "iso": "IQ",
+        "code": "+964",
+        "format": "XXX XXX XXXX"
+    },
+    {
+        "country": "Ireland",
+        "country_ar": "أيرلندا",
+        "iso": "IE",
+        "code": "+353",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Isle of Man",
+        "country_ar": "جزيرة مان",
+        "iso": "IM",
+        "code": "+44",
+        "format": "XXXX XXXXXX"
+    },
+    {
+        "country": "Israel",
+        "country_ar": "إسرائيل",
+        "iso": "IL",
+        "code": "+972",
+        "format": "X XXX XXXX"
+    },
+    {
+        "country": "Italy",
+        "country_ar": "إيطاليا",
+        "iso": "IT",
+        "code": "+39",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Jamaica",
+        "country_ar": "جامايكا",
+        "iso": "JM",
+        "code": "+1876",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Japan",
+        "country_ar": "اليابان",
+        "iso": "JP",
+        "code": "+81",
+        "format": "X XXXX XXXX"
+    },
+    {
+        "country": "Jersey",
+        "country_ar": "جيرسي",
+        "iso": "JE",
+        "code": "+44",
+        "format": "XXXX XXXXXX"
+    },
+    {
+        "country": "Jordan",
+        "country_ar": "الأردن",
+        "iso": "JO",
+        "code": "+962",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Kazakhstan",
+        "country_ar": "كازاخستان",
+        "iso": "KZ",
+        "code": "+77",
+        "format": "XXX XXX XXXX"
+    },
+    {
+        "country": "Kenya",
+        "country_ar": "كينيا",
+        "iso": "KE",
+        "code": "+254",
+        "format": "XXX XXX XXX"
+    },
+    {
+        "country": "Kiribati",
+        "country_ar": "كيريباس",
+        "iso": "KI",
+        "code": "+686",
+        "format": "XXXX XXX"
+    },
+    {
+        "country": "Korea, Democratic People's Republic of Korea",
+        "country_ar": "كوريا الشمالية",
+        "iso": "KP",
+        "code": "+850",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Korea, Republic of South Korea",
+        "country_ar": "كوريا الجنوبية",
+        "iso": "KR",
+        "code": "+82",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Kuwait",
+        "country_ar": "الكويت",
+        "iso": "KW",
+        "code": "+965",
+        "format": "XXXX XXXX"
+    },
+    {
+        "country": "Kyrgyzstan",
+        "country_ar": "قيرغيزستان",
+        "iso": "KG",
+        "code": "+996",
+        "format": "XXX XXX XXX"
+    },
+    {
+        "country": "Laos",
+        "country_ar": "لاوس",
+        "iso": "LA",
+        "code": "+856",
+        "format": "XX XXX XXX"
+    },
+    {
+        "country": "Latvia",
+        "country_ar": "لاتفيا",
+        "iso": "LV",
+        "code": "+371",
+        "format": "XXXX XXXX"
+    },
+    {
+        "country": "Lebanon",
+        "country_ar": "لبنان",
+        "iso": "LB",
+        "code": "+961",
+        "format": "XX XXX XXX"
+    },
+    {
+        "country": "Lesotho",
+        "country_ar": "ليسوتو",
+        "iso": "LS",
+        "code": "+266",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Liberia",
+        "country_ar": "ليبيريا",
+        "iso": "LR",
+        "code": "+231",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Libya",
+        "country_ar": "ليبيا",
+        "iso": "LY",
+        "code": "+218",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Liechtenstein",
+        "country_ar": "ليختنشتاين",
+        "iso": "LI",
+        "code": "+423",
+        "format": "XXX XXX XXXX"
+    },
+    {
+        "country": "Lithuania",
+        "country_ar": "ليتوانيا",
+        "iso": "LT",
+        "code": "+370",
+        "format": "XXX XXXXX"
+    },
+    {
+        "country": "Luxembourg",
+        "country_ar": "لوكسمبورغ",
+        "iso": "LU",
+        "code": "+352",
+        "format": "XXX XXX XXX"
+    },
+    {
+        "country": "Macao",
+        "country_ar": "ماكاو",
+        "iso": "MO",
+        "code": "+853",
+        "format": "XX XXX XXX"
+    },
+    {
+        "country": "Macedonia",
+        "country_ar": "مقدونيا",
+        "iso": "MK",
+        "code": "+389",
+        "format": "XX XXX XXX"
+    },
+    {
+        "country": "Madagascar",
+        "country_ar": "مدغشقر",
+        "iso": "MG",
+        "code": "+261",
+        "format": "XX XX XXX"
+    },
+    {
+        "country": "Malawi",
+        "country_ar": "مالاوي",
+        "iso": "MW",
+        "code": "+265",
+        "format": "XX XXX XXX"
+    },
+    {
+        "country": "Malaysia",
+        "country_ar": "ماليزيا",
+        "iso": "MY",
+        "code": "+60",
+        "format": "X XXX XXXX"
+    },
+    {
+        "country": "Maldives",
+        "country_ar": "جزر المالديف",
+        "iso": "MV",
+        "code": "+960",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Mali",
+        "country_ar": "مالي",
+        "iso": "ML",
+        "code": "+223",
+        "format": "XX XX XX XX"
+    },
+    {
+        "country": "Malta",
+        "country_ar": "مالطا",
+        "iso": "MT",
+        "code": "+356",
+        "format": "XXX XXXXXX"
+    },
+    {
+        "country": "Marshall Islands",
+        "country_ar": "جزر مارشال",
+        "iso": "MH",
+        "code": "+692",
+        "format": "XXX XXX"
+    },
+    {
+        "country": "Martinique",
+        "country_ar": "مارتينيك",
+        "iso": "MQ",
+        "code": "+596",
+        "format": "X XX XX XX XX"
+    },
+    {
+        "country": "Mauritania",
+        "country_ar": "موريتانيا",
+        "iso": "MR",
+        "code": "+222",
+        "format": "XX XX XX XX"
+    },
+    {
+        "country": "Mauritius",
+        "country_ar": "موريشيوس",
+        "iso": "MU",
+        "code": "+230",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Mayotte",
+        "country_ar": "مايوت",
+        "iso": "YT",
+        "code": "+262",
+        "format": "XXX XX XX"
+    },
+    {
+        "country": "Mexico",
+        "country_ar": "المكسيك",
+        "iso": "MX",
+        "code": "+52",
+        "format": "XX XXXX XXXX"
+    },
+    {
+        "country": "Micronesia, Federated States of Micronesia",
+        "country_ar": "ميكرونيزيا",
+        "iso": "FM",
+        "code": "+691",
+        "format": "XXX XXX XXXX"
+    },
+    {
+        "country": "Moldova",
+        "country_ar": "مولدوفا",
+        "iso": "MD",
+        "code": "+373",
+        "format": "XXXX XXX"
+    },
+    {
+        "country": "Monaco",
+        "country_ar": "موناكو",
+        "iso": "MC",
+        "code": "+377",
+        "format": "XX XX XX XX"
+    },
+    {
+        "country": "Mongolia",
+        "country_ar": "منغوليا",
+        "iso": "MN",
+        "code": "+976",
+        "format": "XX XX XXXX"
+    },
+    {
+        "country": "Montenegro",
+        "country_ar": "الجبل الأسود",
+        "iso": "ME",
+        "code": "+382",
+        "format": "XX XXX XXX"
+    },
+    {
+        "country": "Montserrat",
+        "country_ar": "مونتسيرات",
+        "iso": "MS",
+        "code": "+1664",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Morocco",
+        "country_ar": "المغرب",
+        "iso": "MA",
+        "code": "+212",
+        "format": "XX XXXX XXXX"
+    },
+    {
+        "country": "Mozambique",
+        "country_ar": "موزمبيق",
+        "iso": "MZ",
+        "code": "+258",
+        "format": "XX XXX XXX"
+    },
+    {
+        "country": "Myanmar",
+        "country_ar": "ميانمار",
+        "iso": "MM",
+        "code": "+95",
+        "format": "XX XXX XXX"
+    },
+    {
+        "country": "Namibia",
+        "country_ar": "ناميبيا",
+        "iso": "NA",
+        "code": "+264",
+        "format": "XXX XXX XXXX"
+    },
+    {
+        "country": "Nauru",
+        "country_ar": "ناورو",
+        "iso": "NR",
+        "code": "+674",
+        "format": "XXXX XXX"
+    },
+    {
+        "country": "Nepal",
+        "country_ar": "نيبال",
+        "iso": "NP",
+        "code": "+977",
+        "format": "XX XXX XXX"
+    },
+    {
+        "country": "Netherlands",
+        "country_ar": "هولندا",
+        "iso": "NL",
+        "code": "+31",
+        "format": "X XXX XXX XXX"
+    },
+    {
+        "country": "Netherlands Antilles",
+        "country_ar": "جزر الأنتيل الهولندية",
+        "iso": "AN",
+        "code": "+599",
+        "format": "XXX XXX XXXX"
+    },
+    {
+        "country": "New Caledonia",
+        "country_ar": "كاليدونيا الجديدة",
+        "iso": "NC",
+        "code": "+687",
+        "format": "XX XX XX"
+    },
+    {
+        "country": "New Zealand",
+        "country_ar": "نيوزيلندا",
+        "iso": "NZ",
+        "code": "+64",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Nicaragua",
+        "country_ar": "نيكاراغوا",
+        "iso": "NI",
+        "code": "+505",
+        "format": "XXXX XXXX"
+    },
+    {
+        "country": "Niger",
+        "country_ar": "النيجر",
+        "iso": "NE",
+        "code": "+227",
+        "format": "XX XX XX"
+    },
+    {
+        "country": "Nigeria",
+        "country_ar": "نيجيريا",
+        "iso": "NG",
+        "code": "+234",
+        "format": "XXX XXX XXXX"
+    },
+    {
+        "country": "Niue",
+        "country_ar": "نيوي",
+        "iso": "NU",
+        "code": "+683",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Norfolk Island",
+        "country_ar": "جزيرة نورفولك",
+        "iso": "NF",
+        "code": "+672",
+        "format": "X XXXX"
+    },
+    {
+        "country": "Northern Mariana Islands",
+        "country_ar": "جزر ماريانا الشمالية",
+        "iso": "MP",
+        "code": "+1670",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Norway",
+        "country_ar": "النرويج",
+        "iso": "NO",
+        "code": "+47",
+        "format": "XX XX XX XX"
+    },
+    {
+        "country": "Oman",
+        "country_ar": "عمان",
+        "iso": "OM",
+        "code": "+968",
+        "format": "XXXX XXXX"
+    },
+    {
+        "country": "Pakistan",
+        "country_ar": "باكستان",
+        "iso": "PK",
+        "code": "+92",
+        "format": "XXX XXXXXXX"
+    },
+    {
+        "country": "Palau",
+        "country_ar": "بالاو",
+        "iso": "PW",
+        "code": "+680",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Palestinian Territory, Occupied",
+        "country_ar": "فلسطين",
+        "iso": "PS",
+        "code": "+970",
+        "format": "XXX XXX XXXX"
+    },
+    {
+        "country": "Panama",
+        "country_ar": "بنما",
+        "iso": "PA",
+        "code": "+507",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Papua New Guinea",
+        "country_ar": "بابوا غينيا الجديدة",
+        "iso": "PG",
+        "code": "+675",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Paraguay",
+        "country_ar": "باراغواي",
+        "iso": "PY",
+        "code": "+595",
+        "format": "XXX XXX XXX"
+    },
+    {
+        "country": "Peru",
+        "country_ar": "بيرو",
+        "iso": "PE",
+        "code": "+51",
+        "format": "X XXX XXXX"
+    },
+    {
+        "country": "Philippines",
+        "country_ar": "الفلبين",
+        "iso": "PH",
+        "code": "+63",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Pitcairn",
+        "country_ar": "بيتكيرن",
+        "iso": "PN",
+        "code": "+872",
+        "format": "XXX XXX"
+    },
+    {
+        "country": "Poland",
+        "country_ar": "بولندا",
+        "iso": "PL",
+        "code": "+48",
+        "format": "XXX XXX XXX"
+    },
+    {
+        "country": "Portugal",
+        "country_ar": "البرتغال",
+        "iso": "PT",
+        "code": "+351",
+        "format": "XXX XXX XXXX"
+    },
+    {
+        "country": "Puerto Rico",
+        "country_ar": "بورتوريكو",
+        "iso": "PR",
+        "code": "+1939",
+        "format": "XXX XXX XXXX"
+    },
+    {
+        "country": "Qatar",
+        "country_ar": "قطر",
+        "iso": "QA",
+        "code": "+974",
+        "format": "XXXX XXXX"
+    },
+    {
+        "country": "Romania",
+        "country_ar": "رومانيا",
+        "iso": "RO",
+        "code": "+40",
+        "format": "XXX XXX XXX"
+    },
+    {
+        "country": "Russia",
+        "country_ar": "روسيا",
+        "iso": "RU",
+        "code": "+7",
+        "format": "XXX XXX XXXX"
+    },
+    {
+        "country": "Rwanda",
+        "country_ar": "رواندا",
+        "iso": "RW",
+        "code": "+250",
+        "format": "XXX XXX XXX"
+    },
+    {
+        "country": "Reunion",
+        "country_ar": "ريونيون",
+        "iso": "RE",
+        "code": "+262",
+        "format": "XXX XX XX"
+    },
+    {
+        "country": "Saint Barthelemy",
+        "country_ar": "سانت بارتيليمي",
+        "iso": "BL",
+        "code": "+590",
+        "format": "XXX XX XX"
+    },
+    {
+        "country": "Saint Helena, Ascension and Tristan Da Cunha",
+        "country_ar": "سانت هيلينا وأسينشين وتريستان دا كونا",
+        "iso": "SH",
+        "code": "+290",
+        "format": "XXX XXX"
+    },
+    {
+        "country": "Saint Kitts and Nevis",
+        "country_ar": "سانت كيتس ونيفيس",
+        "iso": "KN",
+        "code": "+1869",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Saint Lucia",
+        "country_ar": "سانت لوسيا",
+        "iso": "LC",
+        "code": "+1758",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Saint Martin",
+        "country_ar": "سانت مارتن",
+        "iso": "MF",
+        "code": "+590",
+        "format": "XXX XX XX"
+    },
+    {
+        "country": "Saint Pierre and Miquelon",
+        "country_ar": "سانت بيير وميكلون",
+        "iso": "PM",
+        "code": "+508",
+        "format": "XXX XXX"
+    },
+    {
+        "country": "Saint Vincent and the Grenadines",
+        "country_ar": "سانت فنسنت والغرينادين",
+        "iso": "VC",
+        "code": "+1784",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Samoa",
+        "country_ar": "ساموا",
+        "iso": "WS",
+        "code": "+685",
+        "format": "XX XXX"
+    },
+    {
+        "country": "San Marino",
+        "country_ar": "سان مارينو",
+        "iso": "SM",
+        "code": "+378",
+        "format": "XXX XXX XXX"
+    },
+    {
+        "country": "Sao Tome and Principe",
+        "country_ar": "ساو تومي وبرينسيبي",
+        "iso": "ST",
+        "code": "+239",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Saudi Arabia",
+        "country_ar": "المملكة العربية السعودية",
+        "iso": "SA",
+        "code": "+966",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Senegal",
+        "country_ar": "السنغال",
+        "iso": "SN",
+        "code": "+221",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Serbia",
+        "country_ar": "صربيا",
+        "iso": "RS",
+        "code": "+381",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Seychelles",
+        "country_ar": "سيشيل",
+        "iso": "SC",
+        "code": "+248",
+        "format": "X XX XX"
+    },
+    {
+        "country": "Sierra Leone",
+        "country_ar": "سيراليون",
+        "iso": "SL",
+        "code": "+232",
+        "format": "XX XXX XXX"
+    },
+    {
+        "country": "Singapore",
+        "country_ar": "سنغافورة",
+        "iso": "SG",
+        "code": "+65",
+        "format": "XXXX XXXX"
+    },
+    {
+        "country": "Slovakia",
+        "country_ar": "سلوفاكيا",
+        "iso": "SK",
+        "code": "+421",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Slovenia",
+        "country_ar": "سلوفينيا",
+        "iso": "SI",
+        "code": "+386",
+        "format": "XX XXX XXX"
+    },
+    {
+        "country": "Solomon Islands",
+        "country_ar": "جزر سليمان",
+        "iso": "SB",
+        "code": "+677",
+        "format": "X XXXX"
+    },
+    {
+        "country": "Somalia",
+        "country_ar": "الصومال",
+        "iso": "SO",
+        "code": "+252",
+        "format": "XX XXX XXX"
+    },
+    {
+        "country": "South Africa",
+        "country_ar": "جنوب أفريقيا",
+        "iso": "ZA",
+        "code": "+27",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "South Sudan",
+        "country_ar": "جنوب السودان",
+        "iso": "SS",
+        "code": "+211",
+        "format": "XX XXX XXX"
+    },
+    {
+        "country": "Spain",
+        "country_ar": "إسبانيا",
+        "iso": "ES",
+        "code": "+34",
+        "format": "X XXX XXX XXX"
+    },
+    {
+        "country": "Sri Lanka",
+        "country_ar": "سريلانكا",
+        "iso": "LK",
+        "code": "+94",
+        "format": "XXX XXX XXXX"
+    },
+    {
+        "country": "Sudan",
+        "country_ar": "السودان",
+        "iso": "SD",
+        "code": "+249",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Suriname",
+        "country_ar": "سورينام",
+        "iso": "SR",
+        "code": "+597",
+        "format": "XXX XXX"
+    },
+    {
+        "country": "Svalbard and Jan Mayen",
+        "country_ar": "سفالبارد ويان ماين",
+        "iso": "SJ",
+        "code": "+47",
+        "format": "XX XX XX XX"
+    },
+    {
+        "country": "Swaziland",
+        "country_ar": "سوازيلاند",
+        "iso": "SZ",
+        "code": "+268",
+        "format": "XX XXX XXX"
+    },
+    {
+        "country": "Sweden",
+        "country_ar": "السويد",
+        "iso": "SE",
+        "code": "+46",
+        "format": "XX XXX XX XX"
+    },
+    {
+        "country": "Switzerland",
+        "country_ar": "سويسرا",
+        "iso": "CH",
+        "code": "+41",
+        "format": "XX XXX XX XX"
+    },
+    {
+        "country": "Syrian Arab Republic",
+        "country_ar": "سوريا",
+        "iso": "SY",
+        "code": "+963",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Taiwan",
+        "country_ar": "تايوان",
+        "iso": "TW",
+        "code": "+886",
+        "format": "X XXX XXXX"
+    },
+    {
+        "country": "Tajikistan",
+        "country_ar": "طاجيكستان",
+        "iso": "TJ",
+        "code": "+992",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Tanzania",
+        "country_ar": "تنزانيا",
+        "iso": "TZ",
+        "code": "+255",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Thailand",
+        "country_ar": "تايلاند",
+        "iso": "TH",
+        "code": "+66",
+        "format": "X XXXX XXXX"
+    },
+    {
+        "country": "Timor-Leste",
+        "country_ar": "تيمور الشرقية",
+        "iso": "TL",
+        "code": "+670",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Togo",
+        "country_ar": "توغو",
+        "iso": "TG",
+        "code": "+228",
+        "format": "XX XXX XXX"
+    },
+    {
+        "country": "Tokelau",
+        "country_ar": "توكيلاو",
+        "iso": "TK",
+        "code": "+690",
+        "format": "XXXX"
+    },
+    {
+        "country": "Tonga",
+        "country_ar": "تونغا",
+        "iso": "TO",
+        "code": "+676",
+        "format": "XXX XXX"
+    },
+    {
+        "country": "Trinidad and Tobago",
+        "country_ar": "ترينيداد وتوباغو",
+        "iso": "TT",
+        "code": "+1868",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Tunisia",
+        "country_ar": "تونس",
+        "iso": "TN",
+        "code": "+216",
+        "format": "XX XXX XXX"
+    },
+    {
+        "country": "Turkey",
+        "country_ar": "تركيا",
+        "iso": "TR",
+        "code": "+90",
+        "format": "XXX XXX XXXX"
+    },
+    {
+        "country": "Turkmenistan",
+        "country_ar": "تركمانستان",
+        "iso": "TM",
+        "code": "+993",
+        "format": "X XXXX XXXX"
+    },
+    {
+        "country": "Turks and Caicos Islands",
+        "country_ar": "جزر توركس وكايكوس",
+        "iso": "TC",
+        "code": "+1649",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Tuvalu",
+        "country_ar": "توفالو",
+        "iso": "TV",
+        "code": "+688",
+        "format": "XXXX"
+    },
+    {
+        "country": "Uganda",
+        "country_ar": "أوغندا",
+        "iso": "UG",
+        "code": "+256",
+        "format": "XXX XXX XXX"
+    },
+    {
+        "country": "Ukraine",
+        "country_ar": "أوكرانيا",
+        "iso": "UA",
+        "code": "+380",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "United Arab Emirates",
+        "country_ar": "الإمارات العربية المتحدة",
+        "iso": "AE",
+        "code": "+971",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "United Kingdom",
+        "country_ar": "المملكة المتحدة",
+        "iso": "GB",
+        "code": "+44",
+        "format": "XXXX XXXXXX"
+    },
+    {
+        "country": "United States",
+        "country_ar": "الولايات المتحدة الأمريكية",
+        "iso": "US",
+        "code": "+1",
+        "format": "XXX XXX XXXX"
+    },
+    {
+        "country": "Uruguay",
+        "country_ar": "أوروغواي",
+        "iso": "UY",
+        "code": "+598",
+        "format": "XXX XXX XXX"
+    },
+    {
+        "country": "Uzbekistan",
+        "country_ar": "أوزبكستان",
+        "iso": "UZ",
+        "code": "+998",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Vanuatu",
+        "country_ar": "فانواتو",
+        "iso": "VU",
+        "code": "+678",
+        "format": "XX XXX"
+    },
+    {
+        "country": "Venezuela, Bolivarian Republic of Venezuela",
+        "country_ar": "فنزويلا",
+        "iso": "VE",
+        "code": "+58",
+        "format": "XXX XXX XXXX"
+    },
+    {
+        "country": "Vietnam",
+        "country_ar": "فيتنام",
+        "iso": "VN",
+        "code": "+84",
+        "format": "XX XXXX XXXX"
+    },
+    {
+        "country": "Virgin Islands, British",
+        "country_ar": "جزر فيرجن البريطانية",
+        "iso": "VG",
+        "code": "+1284",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Virgin Islands, U.S.",
+        "country_ar": "جزر فيرجن الأمريكية",
+        "iso": "VI",
+        "code": "+1340",
+        "format": "XXX XXXX"
+    },
+    {
+        "country": "Wallis and Futuna",
+        "country_ar": "واليس وفوتونا",
+        "iso": "WF",
+        "code": "+681",
+        "format": "XX XX"
+    },
+    {
+        "country": "Yemen",
+        "country_ar": "اليمن",
+        "iso": "YE",
+        "code": "+967",
+        "format": "XXX XXX XXX"
+    },
+    {
+        "country": "Zambia",
+        "country_ar": "زامبيا",
+        "iso": "ZM",
+        "code": "+260",
+        "format": "XX XXX XXXX"
+    },
+    {
+        "country": "Zimbabwe",
+        "country_ar": "زيمبابوي",
+        "iso": "ZW",
+        "code": "+263",
+        "format": "XX XXX XXXX"
+    }
+]
