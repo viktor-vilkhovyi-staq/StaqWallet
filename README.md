@@ -49,9 +49,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let config = StaqWalletConfig(
             userId: "user-id",
             secret: "user-secret",
-            email: "user-email",
             nationalID: "national-id",
             userType: "user-type",
+            email: "user-email",
             mobileNumber: "user-mobile-phone-number",
             language: .en, // or .ar
             googleMapsApiKey: "app-google-maps-api-key",
