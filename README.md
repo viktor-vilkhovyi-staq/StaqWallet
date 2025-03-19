@@ -50,6 +50,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             userId: "user-id",
             secret: "user-secret",
             email: "user-email",
+            nationalID: "national-id",
+            userType: "user-type",
             mobileNumber: "user-mobile-phone-number",
             language: .en, // or .ar
             googleMapsApiKey: "app-google-maps-api-key",
